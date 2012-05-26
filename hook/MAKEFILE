@@ -1,0 +1,37 @@
+# for use with IBM NMAKE
+
+.SUFFIXES:
+
+.SUFFIXES: \
+    .c .obj 
+
+CC = ICC.EXE
+LINK = ICC.EXE
+
+#CFLAGS = /Ss /Gs /Gn /G5 /C
+CFLAGS = /Ss /G5 /Ge- /C 
+#/Rn
+
+LFLAGS= /B" /pmtype:pm /nop"
+
+SRCDIR = .
+INCLDIR = ..\H
+LIBPATH = D:\DEVELOPMENT\OS2TK45\LIB
+
+{$(SRCDIR)}.c.obj:
+    $(CC) /I$(INCLDIR) $(CFLAGS) %s
+    
+   
+all: lswhook.dll
+
+lswhook.dll: \
+    lswhook.obj \
+    $(SRCDIR)\lswhook.def
+    $(LINK) /Felswhook.dll \
+    $(SRCDIR)\lswhook.def \
+    lswhook.obj \
+    $(LIBPATH)\os2386.lib
+
+lswhook.obj: \
+    $(SRCDIR)\lswhook.c $(INCLDIR)\lswitch.h $(INCLDIR)\taskbar.h 
+    $(CC) /I$(INCLDIR) $(CFLAGS) %s

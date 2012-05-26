@@ -1,0 +1,137 @@
+Message-ID: <3BAC6521.63603E11@prodigy.net>
+From: Michal Necasek <michaln@prodigy.net>
+X-Mailer: Mozilla 4.61 [en] (OS/2; U)
+X-Accept-Language: en
+MIME-Version: 1.0
+Newsgroups: comp.os.os2.programmer.misc
+Subject: Re: Watcom C V11C: dlls without LibMain crash the system
+References: <3BAB9F0E.8470D092@ece.msstate.edu>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Lines: 48
+NNTP-Posting-Host: 209.232.193.112
+X-Complaints-To: abuse@prodigy.net
+X-Trace: newssvr17.news.prodigy.com 1001153853 6485296 209.232.193.112 (Sat, 22 Sep 2001 06:17:33 EDT)
+NNTP-Posting-Date: Sat, 22 Sep 2001 06:17:33 EDT
+Organization: Prodigy Internet http://www.prodigy.com
+Date: Sat, 22 Sep 2001 10:17:33 GMT
+Path: nntp.msstate.edu!news.memphis.edu!uky.edu!atlanta1-snf1.gtei.net!washdc3-snh1.gtei.net!cpk-news-hub1.bbnplanet.com!news.gtei.net!newscon02.news.prodigy.com!newsmst01.news.prodigy.com!prodigy.com!postmaster.news.prodigy.com!newssvr17.news.prodigy.com.POSTED!not-for-mail
+Xref: nntp.msstate.edu comp.os.os2.programmer.misc:76989
+
+
+Andrei Los wrote:
+> 
+> I just tried the Watcom C update 11C from ftp.scitechsoft.com/watcom and
+> it appears that if a DLL is created without a LibMain function, the
+> system (eCS GA here) crashes with trap 0xE in a device driver (?!) when
+> an executable using such a DLL is loaded. According to the manual this
+> function is not required, so this seems to be a bug. It's no big deal to
+> put an empty LibMain in a dll of course. Has anybody else experienced
+> this?
+> 
+ Yes. This is a bug/feature/bug. Let me explain:
+
+ - I believe there is a bug in WLINK which always sets the INITINSTANCE
+and 
+  TERMINSTANCE bits in the DLL even if no entrypoint is present. It is
+legal 
+  to have no entrypoint in a DLL, WLINK just can't do it right.
+
+ - In Watcom 11 there is a "feature" that prevents the default LibMain
+from 
+  the C runtime to be linked in. It is deliberate although IMO very
+stupid. 
+  Watcom 10.6 did not behave that way. This most likely will be changed
+(to 
+  the 10.6 behavior again) for the next release because the current
+behavior 
+  causes nasty problems on Windows too (not sysem crashes, just app
+crashes) 
+  because the C runtime may not get initialized.
+
+ - There is a bug in the OS/2 loader which causes a system crash when
+the 
+  "illegal" DLL is loaded. That shouldn't happen of course.
+
+
+ As you can see, it's hard to see what the real problem is :-)  Once you 
+know what's going on, it's easy to avoid the issue. 
+
+> p.s. BTW, the watcom debugger now works again!
+>
+ It should, I fixed it :-)  Well, it doesn't work 100% but you won't
+likely 
+notice it (contents of FS:[xxx] aren't displayed, no big deal).
+
+
+     - Mike
+
+Path: nntp.msstate.edu!finch!news.mindspring.net!news.maxwell.syr.edu!news.tele.dk!small.news.tele.dk!207.115.63.138!newscon04.news.prodigy.com!newsmst01.news.prodigy.com!prodigy.com!postmaster.news.prodigy.com!newssvr15.news.prodigy.com.POSTED!not-for-mail
+Message-ID: <3BAD7E07.B948CA5A@prodigy.net>
+From: Michal Necasek <michaln@prodigy.net>
+X-Mailer: Mozilla 4.61 [en] (OS/2; U)
+X-Accept-Language: en
+MIME-Version: 1.0
+Newsgroups: comp.os.os2.programmer.misc
+Subject: Re: Watcom C V11C: dlls without LibMain crash the system
+References: <3BAB9F0E.8470D092@ece.msstate.edu> <3BAC6521.63603E11@prodigy.net> <QoUEqp9HIsjx-pn2-IPXwxSbP6U8Z@tele04.ece.msstate.edu>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Lines: 49
+NNTP-Posting-Host: 209.232.193.29
+X-Complaints-To: abuse@prodigy.net
+X-Trace: newssvr15.news.prodigy.com 1001225777 6485296 209.232.193.29 (Sun, 23 Sep 2001 02:16:17 EDT)
+NNTP-Posting-Date: Sun, 23 Sep 2001 02:16:17 EDT
+Organization: Prodigy Internet http://www.prodigy.com
+Date: Sun, 23 Sep 2001 06:16:17 GMT
+Xref: nntp.msstate.edu comp.os.os2.programmer.misc:76997
+
+
+avl111@yahoo.com wrote:
+> 
+> Mike, thanks for the in-depth explanation. I switched from Watcom 10.5
+> to 11C and that was quite a surprise when one of my programs just
+> crashed the system. 
+>
+ It just so happens that not long ago we were hit by this same 
+"feature" at the office (on Win32 actually). A DLL built with 
+10.6 worked fine, the same DLL built with 11.0x crashed very 
+mysteriously in the C runtime. It took us a while to figure 
+out and then we were told that it was a deliberate change! 
+
+ Supposedly someone was creating resource-only DLLs and didn't 
+want the C runtime linked in. Instead of telling the customer 
+to write an ASM stub or use another of 2-3 possible solutions, 
+Sybase "fixed" it by not generating a reference to LibMain 
+(or whatever 10.x did) in object files built with -bd. So 
+now the default LibMain in the C runtime doesn't get linked 
+in and the C runtime doesn't get initialized unless you 
+provide your own LibMain.
+
+ I _think_ 10.6 used to generate a reference to __DLLStart_ 
+in obj files compiled with -bd: this ensured that a DLL had 
+an entrypoint which in turn called DLLMain and there's a 
+"no-op" default DLLMain in the CRT - and most importantly, 
+the CRT will get initialized. So if you manage to reference 
+__DLLStart_, the default DLLMain will get linked in.
+
+> Hopefully the DLL issue will be fixed in the next update. How soon? 
+> Who knows... 
+>
+ Nobody :-)  Like I said, once you figure this bug out, it's not 
+a problem.
+
+> BTW, do you have any relation to the Open Watcom team, or that was a 
+> joke?
+>
+ No, it wasn't a joke. I really fixed the debugger - or to be 
+exact, took some "bad" bits out so that it may now not function 
+100% (again, it's possible no one will notice) but at least 
+it doesn't crash right away on all newer OS/2 versions. 
+
+ Yes, I really am on the OpenWatcom team. Got the whole monster 
+source on my drive :-)
+
+
+    - Mike
+

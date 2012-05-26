@@ -1,0 +1,75 @@
+~Move
+~Run...
+~Priority
+lSwitcher widget
+Add ~filter
+  
+Could not find or open 
+Could not execute 
+
+Idle-time
+Regular
+Time-critical
+Foreground server
+Delta
+Include descendants
+
+Execute
+~Ok
+~Browse...
+Cancel
+
+
+Current filters
+Minimized to viewer
+Hidden
+~Add entry
+~Remove entry
+Re~fresh
+New entry
+
+Display
+Replace Alt+Tab window
+Switch to PM from FS sessions
+Activation
+"Sticky" popup window (I translated this as "Don't hide automatically" in the 
+                       Russian version, maybe this is better anyway)   
+
+Display
+Enable
+Auto hide
+Show icons only
+Top of screen
+Bottom of screen
+Reduce Desktop workarea
+Maximum button width
+Button 1
+Button 2
+Button 3
+Buttons 1 and 2
+Switch
+Minimize/hide
+Close
+Mouse actions
+
+Language
+Settings dialog hotkey
+
+~Popup window
+~Filters
+~Taskbar
+~Miscellaneous
+
+Page %i of %i
+
+"Suspend system"
+"Scroll message divider"
+"Auto resize"
+"Group items"
+"Flat buttons"
+"3D look"
+"Allow resizing"
+
+"Cannot kill a WPS process"
+"Are you sure you want to kill process"
+

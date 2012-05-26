@@ -1,0 +1,78 @@
+~Verschieben
+~Ausfhren...
+~Priorit„t
+lSwitcher-Widget
+~Filter hinzufgen
+  
+Finden oder ™ffnen nicht m”glich
+Ausfhren nicht m”glich
+ 
+Leerlauf
+Regul„r
+Zeitkritisch
+Vordergrund-Server
+Delta
+Einschlieálich Kindprozesse
+ 
+Ausfhren
+~OK
+~Suchen...
+Abbruch
+ 
+ 
+Derzeitige Filter
+In 'Fenster in Symbolgr”áe'
+Verdeckt
+Eintr~ag hinzufgen
+Eintrag entfe~rnen
+Ak~tualisieren
+Neuer Eintrag
+ 
+Anzeige
+Alt+Tab-Fenster ersetzen
+Aus Vollbildschirm auf PM umschalten
+Aktivierung
+Nicht automatisch verstecken
+ 
+
+Anzeige
+Aktivieren
+Automatisch verstecken
+Nur Symbole anzeigen
+Am oberen Bildschirmrand
+Am unteren Bildschirmrand
+Arbeitsbereich reduzieren
+Maximale Schaltfl„chenbreite
+Schaltfl„che 1
+Schaltfl„che 2
+Schaltfl„che 3
+Schaltfl„chen 1 und 2
+Umschalten
+Minimieren/verdecken
+Schlieáen
+Mausaktionen
+ 
+Sprache
+Tastenkrzel fr Einstellungsdialog
+ 
+~Popup-Fenster
+~Filter
+Fens~terliste
+~Verschiedenes
+ 
+Seite %i von %i
+ 
+"Wartemodus"
+"Scrollnachrichten pro Bewegung"
+"Automatische Gr”áen„nderung"
+"Eintr„ge gruppieren"
+"Flache Schaltfl„chen"
+"3D-Erscheinungsbild"
+"Gr”áen„nderung erlauben"
+ 
+"WPS-Prozeá kann nicht beendet werden:"
+"Prozeá tats„chlich beenden:"
+ 
+Umschalten zur Arbeitsoberfl„che minimiert/verdeckt
+Z-Reihenfolge bei Minimierung „ndern
+lSwitcher in Fensterliste anzeigen

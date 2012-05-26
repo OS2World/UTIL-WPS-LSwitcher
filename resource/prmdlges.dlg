@@ -1,0 +1,192 @@
+/*
+ *      Copyright (C) 1997-2004 Andrei Los.
+ *      This file is part of the lSwitcher source package.
+ *      lSwitcher is free software; you can redistribute it and/or modify
+ *      it under the terms of the GNU General Public License as published
+ *      by the Free Software Foundation, in version 2 as it comes in the
+ *      "COPYING" file of the lSwitcher main distribution.
+ *      This program is distributed in the hope that it will be useful,
+ *      but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *      GNU General Public License for more details.
+ */
+
+#include "prmdlg.h"
+
+DLGTEMPLATE DLG_EXCLUDE LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "", DLG_EXCLUDE, 2, 0, 285, 130, NOT FS_DLGBORDER | WS_VISIBLE
+    BEGIN
+        LTEXT           "Filtros actuales", CHK_STICKY, 183, 119, 108, 8, NOT
+                        WS_GROUP
+        COMBOBOX        "", LB_ADDED, 2, 21, 100, 98, LS_HORZSCROLL
+        GROUPBOX        "", GRP_MINHIDE, 179, 2, 100, 26
+        AUTOCHECKBOX    "Minimizar al visor", CHK_SHOWVIEWER, 183, 12,
+                        95, 10
+        AUTOCHECKBOX    "Ocultar", CHK_SHOWHIDDEN, 183, 4, 95, 10
+        PUSHBUTTON      "~A¤adir entrada", PB_ADD, 113, 85, 55, 14
+        PUSHBUTTON      "~Suprimir entrada", PB_REMOVE, 113, 61, 55, 14
+        PUSHBUTTON      "~Renovar", PB_REFRESH, 113, 37, 55, 14
+        LISTBOX         LB_REMOVED, 179, 23, 100, 95, LS_MULTIPLESEL |
+                        LS_NOADJUSTPOS | LS_HORZSCROLL | LS_EXTENDEDSEL
+        LTEXT           "Nueva entrada", 127, 6, 119, 125, 8, NOT WS_GROUP
+    END
+END
+
+DLGTEMPLATE DLG_PARAMS LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Opciones de lSwitcher", DLG_PARAMS, 89, 28, 310, 175, NOT
+            FS_DLGBORDER | FS_SIZEBORDER, FCF_TITLEBAR | FCF_SYSMENU
+    BEGIN
+        NOTEBOOK        NB_PARAMS, 0, 15, 339, 178, BKS_BACKPAGESTR |
+                        BKS_MAJORTABTOP | BKS_SPIRALBIND | BKS_TABBEDDIALOG |
+                        WS_GROUP
+        PUSHBUTTON      "~Guardar", PB_SAVE, 25, 7, 46, 14
+        PUSHBUTTON      "~Ocultar", PB_HIDE, 81, 7, 46, 14
+        PUSHBUTTON      "~Salir", PB_EXIT, 137, 7, 46, 14
+    END
+END
+
+DLGTEMPLATE DLG_POPUP LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "", DLG_POPUP, 1, 17, 280, 113, NOT FS_DLGBORDER | WS_VISIBLE
+    BEGIN
+        GROUPBOX        "Pantalla", 129, 5, 41, 140, 42
+/*        AUTOCHECKBOX    "Reemplazar la ventana Alt+Tab", CHK_PMSWITCHER, 13,
+                        64, 110, 10*/
+        AUTOCHECKBOX    "Cambiar al PM desde pantalla completa", CHK_PMPOPUPINFS, 13, 64,
+                        121, 10, NOT WS_TABSTOP
+        AUTOCHECKBOX    "Mover los iconos", CHK_SCROLL, 13, 55, 63, 10, NOT
+                        WS_TABSTOP
+        AUTOCHECKBOX    "Mostrar teclas y su funci¢n", CHK_HINTS, 13, 46, 100, 10, NOT
+                        WS_TABSTOP
+        GROUPBOX        "Activaci¢n", 128, 153, 41, 120, 42
+        AUTORADIOBUTTON "Alt+Tab", RAD_ALTTAB, 161, 61, 32, 10, WS_TABSTOP
+        AUTORADIOBUTTON "Ctrl+Tab", RAD_CTRLTAB,198, 61, 34, 10
+//        AUTORADIOBUTTON "Win+Tab", RAD_WINTAB, 235, 61, 34, 10
+        AUTOCHECKBOX    "Ventana ""semipermanente""", CHK_STICKY, 161, 48, 104,
+                        10, NOT WS_TABSTOP
+        LTEXT           "Se¤ales de la rueda del rat¢n", 127, 13, 25, 85, 8, NOT
+                        WS_GROUP
+        SPINBUTTON      SPIN_SCROLLDIV, 110, 26, 20, 12, SPBS_NUMERICONLY |
+                        SPBS_MASTER | SPBS_FASTSPIN
+    END
+END
+
+DLGTEMPLATE DLG_RUN LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Ejecutar", DLG_RUN, 18, 20, 211, 40, WS_VISIBLE, FCF_SYSMENU |
+            FCF_TITLEBAR
+    BEGIN
+        CONTROL         "", CB_RUNCOMMAND, 2, -10, 206, 46, WC_COMBOBOX,
+                        CBS_DROPDOWN | LS_HORZSCROLL | WS_GROUP | WS_TABSTOP |
+                        WS_VISIBLE
+        DEFPUSHBUTTON   "~Bien", DID_OK, 53, 6, 45, 14
+        PUSHBUTTON      "~Examinar...", PB_BROWSE, 108, 6, 45, 14
+        PUSHBUTTON      "Cancelar", DID_CANCEL, 163, 6, 45, 14
+    END
+END
+
+DLGTEMPLATE DLG_TASKBAR LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "", DLG_TASKBAR, 13, 11, 280, 130, NOT FS_DLGBORDER | WS_VISIBLE
+    BEGIN
+        GROUPBOX        "Pantalla", 159, 9, 64, 263, 63
+        AUTOCHECKBOX    "Mostrar", CHK_TASKBARON, 17, 107, 58, 10
+        AUTOCHECKBOX    "Auto-ocultar", CHK_TASKBARALWAYSVISIBLE, 17, 98, 65,
+                        10
+        AUTOCHECKBOX    "S¢lo iconos", CHK_ICONSONLYTSKBAR, 17, 89, 70,
+                        10
+        AUTOCHECKBOX    "Ancho autom tico", CHK_TSKBARGROW, 17, 80, 70,
+                        10
+        AUTORADIOBUTTON "Arriba", RAD_TOP, 96, 107, 72, 10,
+                        WS_TABSTOP
+        AUTORADIOBUTTON "Abajo", RAD_BOTTOM, 96, 98, 86, 10
+        AUTOCHECKBOX    "Reducir tama¤o del Escritorio", CHK_REDUCEDSK, 96, 89,
+                        90, 10
+        AUTOCHECKBOX    "Agrupar tareas", CHK_GROUPITEMS, 196, 107, 70, 10
+        AUTOCHECKBOX    "Botones planos", CHK_FLATBTN, 196, 98, 70, 10
+        AUTOCHECKBOX	"Aspecto 3D",CHK_3DTASKBAR, 196, 89, 70, 10
+        AUTOCHECKBOX	"Altura ajustable",CHK_ALLOWRESIZE, 196, 80, 70, 10
+        
+        LTEXT           "Ancho m ximo de los botones", 151, 18, 68, 96, 8, NOT
+                        WS_GROUP
+        SPINBUTTON      SPIN_BTNWID, 105, 69, 25, 12, SPBS_NUMERICONLY |
+                        SPBS_MASTER | SPBS_FASTSPIN
+        GROUPBOX        "", 157, 8, 9, 84, 48, NOT WS_VISIBLE
+        AUTORADIOBUTTON "Bot¢n 1", RAD_SWMBTN1, 15, 32, 75, 10,
+                        WS_TABSTOP
+        AUTORADIOBUTTON "Bot¢n 2", RAD_SWMBTN2, 15, 23, 75, 10
+        AUTORADIOBUTTON "Bot¢n 3", RAD_SWMBTN3, 15, 14, 75, 10
+        AUTORADIOBUTTON "Botones 1 y 2", RAD_SWMBTN12, 15, 5, 75, 10
+        GROUPBOX        "", 158, 98, 3, 84, 44, NOT WS_VISIBLE
+        AUTORADIOBUTTON "Bot¢n 1", RAD_MINMBTN1, 105, 32, 75, 10,
+                        WS_TABSTOP
+        AUTORADIOBUTTON "Bot¢n 2", RAD_MINMBTN2, 105, 23, 75, 10
+        AUTORADIOBUTTON "Bot¢n 3", RAD_MINMBTN3, 105, 14, 75, 10
+        AUTORADIOBUTTON "Botones 1 y 2", RAD_MINMBTN12, 105, 5, 75,
+                        10
+        GROUPBOX        "", 162, 188, 3, 84, 44, NOT WS_VISIBLE
+        AUTORADIOBUTTON "Bot¢n 1", RAD_CLOSEMBTN1, 195, 32, 75, 10,
+                        WS_TABSTOP
+        AUTORADIOBUTTON "Bot¢n 2", RAD_CLOSEMBTN2, 195, 23, 75, 10
+        AUTORADIOBUTTON "Bot¢n 3", RAD_CLOSEMBTN3, 195, 14, 75, 10
+        AUTORADIOBUTTON "Botones 1 y 2", RAD_CLOSEMBTN12, 195, 5, 75,
+                        10
+        LTEXT           "Cambiar a", 160, 17, 44, 65, 8
+        LTEXT           "Minimizar/ocultar", 161, 107, 44, 82, 8
+        LTEXT           "Cerrar", 163, 197, 44, 36, 8
+        GROUPBOX        "Acciones del rat¢n", 164, 8, 3, 264, 59
+    END
+END
+
+DLGTEMPLATE DLG_MISC LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "", DLG_MISC, 1, 1, 280, 116, NOT FS_DLGBORDER | WS_VISIBLE
+    BEGIN
+        LTEXT           "Idioma", 302, 24, 96, 39, 8
+        CONTROL         "", COMBO_LANG, 55, 72, 71, 33, WC_COMBOBOX,
+                        CBS_DROPDOWNLIST | WS_GROUP | WS_TABSTOP |
+                        WS_VISIBLE
+        LTEXT           "Tecla r pida para este panel Ctrl+Alt+", 301, 23, 62, 136,
+                        8, NOT WS_GROUP
+        ENTRYFIELD      "", EF_HOTKEY, 130, 64, 9, 6, ES_MARGIN
+        GROUPBOX        "", 303, 23, 15, 189, 46
+        AUTOCHECKBOX    "Cambiar al Escritorio oculta/minimiza todo",
+                        CHK_SWDESKTOP, 30, 43, 175, 10
+        AUTOCHECKBOX    "Cambiar orden de minimizaci¢n del eje Z", CHK_ZORDER, 30, 31,
+                        137, 10
+        AUTOCHECKBOX    "Mostrar lSwitcher en la Lista de ventanas", CHK_SHOWINWINLIST,
+                        30, 19, 149, 10
+    END
+END
+
+DLGTEMPLATE DLG_PRTY LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Prioridad", 100, 31, 25, 189, 77, FS_SCREENALIGN |
+            WS_VISIBLE, FCF_SYSMENU | FCF_TITLEBAR
+    BEGIN
+        AUTORADIOBUTTON "Idle-time", RAD_IDLETIME, 8, 61, 53, 10
+        AUTORADIOBUTTON "Regular", RAD_REGULAR, 8, 52, 45, 10
+        AUTORADIOBUTTON "Time-critical", RAD_CRITICAL, 8, 43, 71, 10
+        AUTORADIOBUTTON "Foreground server", RAD_FGNDSERVER, 8, 34, 71, 10
+        LTEXT           "Delta", 105, 89, 61, 22, 8
+        SPINBUTTON      SPIN_DELTA, 115, 62, 29, 12, SPBS_NUMERICONLY |
+                        SPBS_MASTER | SPBS_FASTSPIN | WS_GROUP
+        AUTOCHECKBOX    "Incluir descendientes", CHK_DESCENDANTS, 89, 43, 97,
+                        10
+        PUSHBUTTON      "Bien", DID_OK, 42, 7, 40, 14
+        PUSHBUTTON      "Cancelar", DID_CANCEL, 103, 7, 40, 14
+    END
+END
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE
+{
+  DLG_POPUP "~Ventana emergente"
+  DLG_EXCLUDE "~Filtros"
+  DLG_TASKBAR "~Barra de tareas"
+  DLG_MISC "~Varios"
+
+  STR_DLGPAGE "P gina %i de %i"
+}
+

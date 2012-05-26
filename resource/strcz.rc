@@ -1,0 +1,52 @@
+/*
+ *      Copyright (C) 1997-2004 Andrei Los.
+ *      This file is part of the lSwitcher source package.
+ *      lSwitcher is free software; you can redistribute it and/or modify
+ *      it under the terms of the GNU General Public License as published
+ *      by the Free Software Foundation, in version 2 as it comes in the
+ *      "COPYING" file of the lSwitcher main distribution.
+ *      This program is distributed in the hope that it will be useful,
+ *      but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *      GNU General Public License for more details.
+ */
+
+#include "lswres.h"
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE
+{
+  STRID_HINTS "æipky:vìbØr  Mezera:zruçit"
+  STRID_SWITCH "Pýepnout na"
+  STRID_CLOSE "~Zavý¡t "
+  STRID_HIDE "S~krìt"
+  STRID_MINIMIZE "~Minimalizovat"
+  STRID_RESTORE "~Obnovit"
+  STRID_SHOW "Zo~brazit"
+  STRID_MAXIMIZE "Ma~ximalizovat"
+  STRID_MOVE "~Pýesunout"
+  STRID_RUN "~Spustit..."
+  STRID_KILL "DosKillProcess"
+  STRID_DEATH "SIGKILL"
+  STRID_PRIORITY "P~riorita..."
+  STRID_SHOWSETTINGS "Nastaven¡ pro ~lSwitcher..."
+  STRID_QUIT "~Konec"
+  STRID_XCENTERSUBMENU "lSwitcher modul"
+  STRID_ADDFILTER "Pýidat ~filtr"
+  STRID_SUSPEND "Uspat syst‚m"
+}
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE
+{
+  MSG_LOADED   "lSwitcher u§ bØ§¡"
+  MSG_ERROR    "chyba"
+  MSG_CANTSAVE "Nemohu ulo§it nastaven¡ do souboru %s"
+  MSG_CANTOPEN "Nemohu otevý¡t soubor s nastaven¡mi %s"
+  MSG_WRONGVER "Z znam v souboru s nastaven¡mi %s odpov¡d  odliçn‚ verzi programu a nelze ho pou§¡t. Chcete tento z znam smazat?" 
+  MSG_CANTFINDOPEN "Nemohu naj¡t nebo otevý¡t " 
+  MSG_CANTEXECUTE "Nepodaýilo se spustit "
+  MSG_CANTKILL "Nelze sestýelit proces WPS"
+  MSG_KILLQUERY "Chcete opravdu sestýelit proces"
+  MSG_CANCEL "Zruçit"
+  MSG_FOLDERS "Slo§ky"
+}
+

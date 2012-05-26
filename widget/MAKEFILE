@@ -1,0 +1,80 @@
+# for use with IBM NMAKE
+
+.SUFFIXES:
+
+.SUFFIXES: .c .obj 
+
+CC = ICC.EXE
+LINK = ICC.EXE
+
+CFLAGS = /DXWORKPLACE /Ss /Gm /Ge- /G5 /C
+
+LFLAGS= /B" /exepack:2 /pmtype:pm /optfunc /packd /map" 
+
+SRCDIR = ..
+INCLDIR = ..\H
+INCLDIRXWP = .\xwph
+
+{$(SRCDIR)}.c.obj:
+    $(CC) /I$(INCLDIR) /I$(INCLDIRXWP) $(CFLAGS) %s
+    
+all:  lSwidget.dll
+
+
+
+lSwidget.dll: \
+    settings.obj taskbar.obj common.obj fspopup.obj pmpopup.obj object.obj lswidget.obj \
+    eastring.obj lswidget.def
+  $(LINK) $(LFLAGS) /FelSwidget.dll \
+    lswidget.def \
+    settings.obj \
+    taskbar.obj \
+    common.obj \
+    fspopup.obj \
+    pmpopup.obj \
+    object.obj \
+    eastring.obj \
+    lswidget.obj
+    
+        
+settings.obj: \
+    $(SRCDIR)\settings.c $(INCLDIR)\lswitch.h $(INCLDIR)\common.h \
+    $(INCLDIR)\taskbar.h $(INCLDIR)\settings.h \
+    $(INCLDIR)\lswres.h $(INCLDIR)\prmdlg.h
+    $(CC) /I$(INCLDIR) /I$(INCLDIRXWP) $(CFLAGS) %s
+    
+lswidget.obj: \
+    $(SRCDIR)\widget\lswidget.c $(INCLDIR)\lswitch.h $(INCLDIR)\common.h \
+    $(INCLDIR)\settings.h $(INCLDIR)\taskbar.h $(INCLDIR)\prmdlg.h \
+    $(INCLDIRXWP)\center.h
+    $(CC) /I$(INCLDIR) /I$(INCLDIRXWP) $(CFLAGS) %s
+    
+taskbar.obj: \
+    $(SRCDIR)\taskbar.c $(INCLDIR)\lswitch.h $(INCLDIR)\common.h \
+    $(INCLDIR)\taskbar.h $(INCLDIR)\settings.h $(INCLDIR)\lswres.h 
+    $(CC) /I$(INCLDIR) /I$(INCLDIRXWP) $(CFLAGS) %s
+
+common.obj: \
+    $(SRCDIR)\common.c $(INCLDIR)\lswitch.h $(INCLDIR)\common.h \
+    $(INCLDIR)\lswres.h $(INCLDIRXWP)\dlgids.h
+    $(CC) /I$(INCLDIR) /I$(INCLDIRXWP) $(CFLAGS) %s
+    
+fspopup.obj: \
+    $(SRCDIR)\fspopup.c $(INCLDIR)\lswitch.h $(INCLDIR)\common.h \
+    $(INCLDIR)\fspopup.h $(INCLDIR)\api16.h 
+    $(CC) /I$(INCLDIR) /I$(INCLDIRXWP) $(CFLAGS) %s
+
+object.obj: \
+    $(SRCDIR)\object.c $(INCLDIR)\object.h 
+    $(CC) /I$(INCLDIR) $(CFLAGS) %s
+
+eastring.obj: \
+    $(SRCDIR)\eastring.c $(INCLDIR)\eastring.h 
+    $(CC) /I$(INCLDIR) $(CFLAGS) %s
+    
+pmpopup.obj: \
+    $(SRCDIR)\pmpopup.c $(INCLDIR)\lswitch.h $(INCLDIR)\common.h \
+    $(INCLDIR)\taskbar.h $(INCLDIR)\settings.h $(INCLDIR)\api16.h \
+    $(INCLDIR)\lswres.h $(INCLDIR)\prmdlg.h
+    $(CC) /I$(INCLDIR) /I$(INCLDIRXWP) $(CFLAGS) %s
+    

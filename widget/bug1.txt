@@ -1,0 +1,138 @@
+Andrei Los wrote:
+> Подозрение есть, но у меня тут получилась какая-то неразбериха с версиями. Если можно попробовать еще раз с 
+> приложенной dll-кой и lswidget.sym. 
+
+Понятно. Вот что получилось:
+
+
+XWorkplace trap message -- Date: 2004-05-05, Time: 10:49:42
+-----------------------------------------------------------
+
+An internal error occurred in XWorkplace (XFLDR.DLL).
+Please send a bug report to xworkplace-user@yahoogroups.com
+so that this error may be fixed for future XWorkplace versions.
+Please supply this file (?:\xwptrap.log) with your e-mail
+and describe as exactly as possible the conditions under which
+the error occured.
+
+Running XFLDR.DLL version: 1.0.2 built Jan 28 2004
+Running OS/2 version: 20.45.0 (WSeB kernel)
+
+excHandlerLoud:
+     Exception type: C0000005
+     Address:        1E12B4BD
+     Params:         00000001  01A83CA8
+XCPT_ACCESS_VIOLATION: XCPT_READ_ACCESS -- Invalid read access from 0x0053:01A83CA8.
+Explanation: An attempt was made to access a memory object which does
+              not belong to the current process. Most probable causes
+              for this are that an invalid pointer was used, there was
+              confusion with administering memory or error conditions
+              were not properly checked for.
+
+Process information:
+     Process ID:      0x3D
+     Process module:  0x95B (C:\OS2\PMSHELL.EXE)
+     Trapping module: 0x1238 (C:\OS2\APPS\XWORKPLACE\PLUGINS\XCENTER\LSWIDGET.DLL)
+     Object: 0
+
+Trapping thread information:
+     Thread ID:       0x1D (29)
+     Thread slot ID:  0x80 (128)
+     Priority:        0x31F
+Thread identification:
+     TID 0x1D (29)  (XCenter)
+The following threads could be identified:
+     PMSHELL Workplace thread ID: 0x1
+     NotifySentinel: ID 0xC (12)
+     Party: ID 0xD (13)
+     Worker: ID 0xE (14)
+     Bush: ID 0xF (15)
+     Wimp: ID 0x10 (16)
+     File: ID 0x11 (17)
+     RefreshFindFolder: ID 0x12 (18)
+     RefreshNotificationPump: ID 0x13 (19)
+     XCenter: ID 0x1D (29)
+     PulseWidgetCollect: ID 0x20 (32)
+     LazyIcons: ID 0x22 (34)
+
+Global lock semaphore is currently not owned.
+
+Registers:
+     DS  = 00000053  invalid
+     ES  = 00000053  invalid
+     FS  = 0000150B  invalid
+     GS  = 00000000  invalid
+     EAX = 01A03CB0  valid, flags: read write committed
+     EBX = 00000000  invalid
+     ECX = 0000FFFF  invalid
+     EDX = 1B79000C  valid, flags: read write committed shared base
+     ESI = 013B47D0  valid, flags: read write committed
+     EDI = 8000035E  valid, flags: free
+Instruction pointer (where exception occured):
+     CS:EIP = 005B:1E12B4BD  valid, flags: read execute committed shared
+     EFLAGS = 00012246
+Stack:
+     Base:         01910000
+     Limit:        01957000
+     SS:ESP = 0053:01955A80  valid, flags: read write committed
+     EBP    =      01955AC8  valid, flags: read write committed
+
+Stack frames:
+               Address   Module   seg:ofs
+     CS:EIP  : 1E12B4BD  LSWIDGET 01:0000B4BD
+                                  between MakeFitStr + 0xB1
+                                      and FindResDll - 0x5F
+
+     01955AC8: 1E128085  LSWIDGET 01:00008085
+                                  between TaskBarWndProc + 0x25E5
+                                      and InitTaskBar - 0x58B
+
+     01956010: 1E931EDA  PMMERGE  04:00101EDA
+                                  between SendMsg + 0x2D6
+                                      and CalcTrackRect - 0x24A
+
+     01956130: 1E920C49  PMMERGE  04:000F0C49
+                                  between Win32ButtonWndProc + 0x499
+                                      and BiDiWrapALine - 0x42B
+
+     0195619C: 1E125751  LSWIDGET 01:00005751
+                                  between ParmDlgProc + 0x2E9F
+                                      and TaskBarWndProc - 0x34F
+
+     01956780: 1E931EDA  PMMERGE  04:00101EDA
+                                  between SendMsg + 0x2D6
+                                      and CalcTrackRect - 0x24A
+
+     01956828: 1E9476CB  PMMERGE  04:001176CB
+                                  between SetPresParam + 0x5F
+                                      and XSetPresParam - 0xC9
+
+     0195685C: 1E944757  PMMERGE  04:00114757
+                                  between WIN32SETCAPTURE + 0x13
+                                      and WIN32GETKEYSTATE - 0x49
+
+     01956DB4: 1E93587D  PMMERGE  04:0010587D
+                                  between WIN32QUERYWINDOWPTR + 0x5
+                                      and WQueryWindowPtr - 0xF
+
+     01956E00: 1ED2B747  XFLDR    03:0008B747
+                                  between ctrpCreateXCenterView + 0x767
+                                      and ctrpStuffSettings - 0x549
+
+     01956FA8: 1ED5DB31  XFLDR    03:000BDB31
+                                  between thrCreate + 0x16F
+                                      and txvReplaceWithTextView - 0x66F
+
+     01956FD4: 1ED85608  XFLDR    03:000E5608
+                                  between _CrtGetLocalData + 0x310
+                                      and _beginthread - 0x14
+
+     01956FF4: 1C04C188  DOSCALL1 04:0000C188
+                                  between DOS32R3EXITADDR + 0
+                                      and DOSISIGDISPATCH - 8
+
+
+     pulStackWord == 0
+
+
+Alex Porollo

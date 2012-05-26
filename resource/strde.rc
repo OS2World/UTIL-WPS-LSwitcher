@@ -1,0 +1,52 @@
+/*
+ *      Copyright (C) 1997-2004 Andrei Los.
+ *      This file is part of the lSwitcher source package.
+ *      lSwitcher is free software; you can redistribute it and/or modify
+ *      it under the terms of the GNU General Public License as published
+ *      by the Free Software Foundation, in version 2 as it comes in the
+ *      "COPYING" file of the lSwitcher main distribution.
+ *      This program is distributed in the hope that it will be useful,
+ *      but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *      GNU General Public License for more details.
+ */
+
+#include "lswres.h"
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE
+{
+  STRID_HINTS "Cursor:Auswahl  Leertaste:Abbrechen"
+  STRID_SWITCH "Umschalten"
+  STRID_CLOSE "S~chlie·en"
+  STRID_HIDE "Ver~decken"
+  STRID_MINIMIZE "S~ymbolgrî·e"
+  STRID_RESTORE "~Wiederherstellen"
+  STRID_SHOW "~Anzeigen"
+  STRID_MAXIMIZE "~Maximale Grî·e"
+  STRID_MOVE "~Verschieben"
+  STRID_RUN "~AusfÅhren..."
+  STRID_KILL "DosKillProcess"
+  STRID_DEATH "SIGKILL"
+  STRID_PRIORITY "~PrioritÑt..."
+  STRID_SHOWSETTINGS "~lSwitcher-Einstellungen..."
+  STRID_QUIT "~Beenden"
+  STRID_XCENTERSUBMENU "lSwitcher-Widget"
+  STRID_ADDFILTER "~Filter hinzufÅgen"
+  STRID_SUSPEND "Wartemodus"
+}
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE
+{
+  MSG_LOADED   "Bereits gestartet"
+  MSG_ERROR    "Fehler"
+  MSG_CANTSAVE "Kann die Einstellungen nicht in der Ini-Datei %s abspeichern"
+  MSG_CANTOPEN "Kann die Ini-Datei %s nicht laden"
+  MSG_WRONGVER "Ein Eintrag in der Ini-Datei %s gehîrt zu einer anderen Version des Programms und kann deshalb nicht benutzt werden. Soll dieser Eintrag gelîscht werden?"
+  MSG_CANTFINDOPEN "Finden oder ôffnen nicht mîglich " 
+  MSG_CANTEXECUTE "AusfÅhren nicht mîglich "
+  MSG_CANTKILL "WPS-Proze· kann nicht beendet werden"
+  MSG_KILLQUERY "Proze· tatsÑchlich beenden:"
+  MSG_CANCEL "Abbruch"
+  MSG_FOLDERS "Folders"
+}
+

@@ -1,0 +1,47 @@
+# for use with IBM NMAKE
+
+.SUFFIXES:
+
+.SUFFIXES: \
+    .c .obj 
+
+# need to change LANGUAGE when making localized versions    
+# EN RU ES CZ IT DE JP
+LANGUAGE = EN
+
+CC = ICC.EXE
+LINK = ICC.EXE
+RC =RC.EXE
+
+CFLAGS = /Ss /Gs /Gn /G5 /C 
+
+LFLAGS= /B" /exepack:2 /pmtype:pm /packd /optfunc"
+
+SRCDIR = .
+INCLDIR = ..\H
+
+{$(SRCDIR)}.c.obj:
+    $(CC) /I$(INCLDIR) $(CFLAGS) %s
+    
+all: lswres$(LANGUAGE).dll
+
+
+lswres$(LANGUAGE).dll: \
+    lswres.obj lswitch.res \
+    $(SRCDIR)\lswres$(LANGUAGE).def
+    $(LINK) /Felswres$(LANGUAGE).dll $(SRCDIR)\lswres$(LANGUAGE).def lswres.obj 
+    $(RC) $(SRCDIR)\lswitch.res lswres$(LANGUAGE).dll
+
+    
+lswres.obj: \
+    $(SRCDIR)\lswres.c $(INCLDIR)\lswitch.h $(INCLDIR)\lswres.h 
+    $(CC) /I$(INCLDIR) /DLANGUAGE=$(LANGUAGE) $(CFLAGS) %s
+
+.\lswitch.res: \
+    $(SRCDIR)\lswitch.rc \
+    $(SRCDIR)\str$(LANGUAGE).rc \
+    $(SRCDIR)\prmdlg$(LANGUAGE).dlg \
+    $(INCLDIR)\prmdlg.h \
+    $(INCLDIR)\lswres.h \
+    $(INCLDIR)\lswitch.h 
+    $(RC) -i $(INCLDIR) -D LANGUAGE=$(LANGUAGE) -r $(SRCDIR)\lswitch.rc

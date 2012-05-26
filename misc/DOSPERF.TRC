@@ -1,0 +1,136 @@
+OS/2 API Trace Version 2.45.34 (10 Jul 2001), OS/2 Version 2.45
+(c) Copyright IBM Corporation 1995, 2001.
+
+OS/2 API Trace Customization Options:
+  -A NONE -B ALL -C OFF -D MEM,TIME -E OFF -F ALL -G ALL -I ON -L 3 -T ON -U PRFHOOK.LogPerfSysCall -W ALL
+
+DOSPERF.EXE (009F) starting at 20:23:29.68 on 02/26/2003
+
+009F 0001 | Dos32AllocMem Entry at 20:23:29.68, Return Address = 0x00012500 (DOSPERF 0001:00002500)
+          | Parameter 1: PPVOID = 0x00039A74
+          | Parameter 2: ULONG = 0x00010000
+          | Parameter 3: ULONG = 0x00000013
+
+009F 0001 | Dos32AllocMem Exit at 20:23:29.69
+     PASS | Return code: 0 (NO_ERROR)
+          | Parameter 1: PPVOID = 0x00039A74 [0x001C0000]
+
+009F 0001 | Dos32AllocMem Entry at 20:23:29.69, Return Address = 0x00014753 (DOSPERF 0001:00004753)
+          | Parameter 1: PPVOID = 0x00031AE4
+          | Parameter 2: ULONG = 0x00002000
+          | Parameter 3: ULONG = 0x00000013
+
+009F 0001 | Dos32AllocMem Exit at 20:23:29.69
+     PASS | Return code: 0 (NO_ERROR)
+          | Parameter 1: PPVOID = 0x00031AE4 [0x001D0000]
+
+009F 0001 | Dos32PerfSysCall Entry at 20:23:29.69, Return Address = 0x00010048 (DOSPERF 0001:00000048)
+          | Parameter 1: ULONG = 0x000000C5
+          | Parameter 2: ULONG = 0x000396A8
+          | Parameter 3: ULONG = 0x00000400
+          | Parameter 4: ULONG = 0x00000000
+
+009F 0001 | Dos32PerfSysCall Exit at 20:23:29.69
+     FAIL | Return code: 65564 (Unknown)
+
+009F 0001 | Dos32PerfSysCall Entry at 20:23:29.69, Return Address = 0x000100BC (DOSPERF 0001:000000BC)
+          | Parameter 1: ULONG = 0x000000C1
+          | Parameter 2: ULONG = 0x000396A8
+          | Parameter 3: ULONG = 0x00000400
+          | Parameter 4: ULONG = 0x00000000
+
+009F 0001 | Dos32PerfSysCall Exit at 20:23:29.69
+     FAIL | Return code: 4 (ERROR_TOO_MANY_OPEN_FILES)
+
+009F 0001 | Dos32PerfSysCall Entry at 20:23:29.69, Return Address = 0x00010110 (DOSPERF 0001:00000110)
+          | Parameter 1: ULONG = 0x000000D0
+          | Parameter 2: ULONG = 0x000396A8
+          | Parameter 3: ULONG = 0x00000010
+          | Parameter 4: ULONG = 0x00000113
+
+009F 0001 | Dos32PerfSysCall Exit at 20:23:29.69
+     PASS | Return code: 0 (NO_ERROR)
+
+009F 0001 | Dos32PerfSysCall Entry at 20:23:29.69, Return Address = 0x00010164 (DOSPERF 0001:00000164)
+          | Parameter 1: ULONG = 0x000000CD
+          | Parameter 2: ULONG = 0x000396A8
+          | Parameter 3: ULONG = 0x00000016
+          | Parameter 4: ULONG = 0x000000FC
+
+009F 0001 | Dos32PerfSysCall Exit at 20:23:29.69
+     PASS | Return code: 0 (NO_ERROR)
+
+009F 0001 | Dos32AllocMem Entry at 20:23:29.69, Return Address = 0x000101AE (DOSPERF 0001:000001AE)
+          | Parameter 1: PPVOID = 0x000396A0
+          | Parameter 2: ULONG = 0x00001000
+          | Parameter 3: ULONG = 0x00000013
+
+009F 0001 | Dos32AllocMem Exit at 20:23:29.70
+     PASS | Return code: 0 (NO_ERROR)
+          | Parameter 1: PPVOID = 0x000396A0 [0x001E0000]
+
+009F 0001 | Dos32PerfSysCall Entry at 20:23:29.70, Return Address = 0x000101CC (DOSPERF 0001:000001CC)
+          | Parameter 1: ULONG = 0x000000DC
+          | Parameter 2: ULONG = 0x001E0000
+          | Parameter 3: ULONG = 0x000C0000
+          | Parameter 4: ULONG = 0xFEFBCFE0
+
+<+ PRFHOOK.LogPerfSysCall(2): DosPerfSysCall entry Dos32PerfSysCall DC 1E0000 C0000 FEFBCFE0
+ +>
+
+009F 0001 | Dos32PerfSysCall Exit at 20:23:29.70
+     PASS | Return code: 0 (NO_ERROR)
+
+<+ PRFHOOK.LogPerfSysCall(3): DosPerfSysCall entry Dos32PerfSysCall DC 1E0000 C0000 FEFBCFE0
+ +>
+
+009F 0001 | Dos32AllocMem Entry at 20:23:29.70, Return Address = 0x000101E8 (DOSPERF 0001:000001E8)
+          | Parameter 1: PPVOID = 0x000396A4
+          | Parameter 2: ULONG = 0x00000114
+          | Parameter 3: ULONG = 0x00000013
+
+009F 0001 | Dos32AllocMem Exit at 20:23:29.70
+     PASS | Return code: 0 (NO_ERROR)
+          | Parameter 1: PPVOID = 0x000396A4 [0x001F0000]
+
+009F 0001 | Dos32PerfSysCall Entry at 20:23:29.70, Return Address = 0x00010200 (DOSPERF 0001:00000200)
+          | Parameter 1: ULONG = 0x000000D9
+          | Parameter 2: ULONG = 0x000396A4
+          | Parameter 3: ULONG = 0x00000000
+          | Parameter 4: ULONG = 0x00000000
+
+<+ PRFHOOK.LogPerfSysCall(2): DosPerfSysCall entry Dos32PerfSysCall D9 396A4 0 0
+ +>
+
+009F 0001 | Dos32PerfSysCall Exit at 20:23:29.70
+     PASS | Return code: 0 (NO_ERROR)
+
+<+ PRFHOOK.LogPerfSysCall(3): DosPerfSysCall entry Dos32PerfSysCall D9 396A4 0 0
+ +>
+
+009F 0001 | Dos32FreeMem Entry at 20:23:29.70, Return Address = 0x00010278 (DOSPERF 0001:00000278)
+          | Parameter 1: PVOID = 0x001E0000
+
+009F 0001 | Dos32FreeMem Exit at 20:23:29.70
+     PASS | Return code: 0 (NO_ERROR)
+
+009F 0001 | Dos32FreeMem Entry at 20:23:29.70, Return Address = 0x00010286 (DOSPERF 0001:00000286)
+          | Parameter 1: PVOID = 0x001F0000
+
+009F 0001 | Dos32FreeMem Exit at 20:23:29.70
+     PASS | Return code: 0 (NO_ERROR)
+
+009F 0001 | Dos32FreeMem Entry at 20:23:29.70, Return Address = 0x0001484C (DOSPERF 0001:0000484C)
+          | Parameter 1: PVOID = 0x001D0000
+
+009F 0001 | Dos32FreeMem Exit at 20:23:29.70
+     PASS | Return code: 0 (NO_ERROR)
+
+009F 0001 | Dos32FreeMem Entry at 20:23:29.70, Return Address = 0x00012440 (DOSPERF 0001:00002440)
+          | Parameter 1: PVOID = 0x001C0000
+
+009F 0001 | Dos32FreeMem Exit at 20:23:29.70
+     PASS | Return code: 0 (NO_ERROR)
+
+DOSPERF.EXE (009F) stopping at 20:23:29.70 on 02/26/2003
+

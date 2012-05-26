@@ -1,0 +1,191 @@
+/*
+ *      Copyright (C) 1997-2004 Andrei Los.
+ *      This file is part of the lSwitcher source package.
+ *      lSwitcher is free software; you can redistribute it and/or modify
+ *      it under the terms of the GNU General Public License as published
+ *      by the Free Software Foundation, in version 2 as it comes in the
+ *      "COPYING" file of the lSwitcher main distribution.
+ *      This program is distributed in the hope that it will be useful,
+ *      but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *      GNU General Public License for more details.
+ */
+
+#include "prmdlg.h"
+
+DLGTEMPLATE DLG_EXCLUDE LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "", DLG_EXCLUDE, 2, 0, 310, 130, NOT FS_DLGBORDER | WS_VISIBLE
+    BEGIN
+        LTEXT           "Фильтры", CHK_STICKY, 195, 119, 108, 8, NOT
+                        WS_GROUP
+        COMBOBOX        "", LB_ADDED, 2, 21, 110, 98, LS_HORZSCROLL
+        GROUPBOX        "", GRP_MINHIDE, 191, 2, 110, 26
+        AUTOCHECKBOX    "В Обзоре миниокон", CHK_SHOWVIEWER, 195, 12,
+                        95, 10
+        AUTOCHECKBOX    "Скрытые", CHK_SHOWHIDDEN, 195, 4, 95, 10
+        PUSHBUTTON      "~Добавить запись", PB_ADD, 123, 85, 57, 14
+        PUSHBUTTON      "~Удалить запись", PB_REMOVE, 123, 61, 57, 14
+        PUSHBUTTON      "~Обновить", PB_REFRESH, 123, 37, 57, 14
+        LISTBOX         LB_REMOVED, 191, 23, 110, 95, LS_MULTIPLESEL |
+                        LS_NOADJUSTPOS | LS_HORZSCROLL | LS_EXTENDEDSEL
+        LTEXT           "Новая запись", 127, 6, 119, 125, 8, NOT WS_GROUP
+    END
+END
+
+DLGTEMPLATE DLG_PARAMS LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "lSwitcher - настройки", DLG_PARAMS, 89, 28, 310, 175, NOT
+            FS_DLGBORDER | FS_SIZEBORDER, FCF_TITLEBAR | FCF_SYSMENU
+    BEGIN
+        NOTEBOOK        NB_PARAMS, 0, 15, 339, 178, BKS_BACKPAGESTR |
+                        BKS_MAJORTABTOP | BKS_SPIRALBIND | BKS_TABBEDDIALOG |
+                        WS_GROUP
+        PUSHBUTTON      "~Сохранить", PB_SAVE, 25, 7, 46, 14
+        PUSHBUTTON      "Скры~ть", PB_HIDE, 91, 7, 46, 14
+        PUSHBUTTON      "~Выход", PB_EXIT, 157, 7, 46, 14
+    END
+END
+
+DLGTEMPLATE DLG_POPUP LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "", DLG_POPUP, 1, 17, 310, 113, NOT FS_DLGBORDER | WS_VISIBLE
+    BEGIN
+        GROUPBOX        "Отображение", 129, 5, 41, 165, 42
+        AUTOCHECKBOX    "Переключаться в PM из полноэкранных сессий", CHK_PMPOPUPINFS, 13, 64,
+                        152, 10, NOT WS_TABSTOP
+        AUTOCHECKBOX    "Сдвигать значки", CHK_SCROLL, 13, 55, 63, 10, NOT
+                        WS_TABSTOP
+        AUTOCHECKBOX    "Показать строку подсказок", CHK_HINTS, 13, 46, 100, 10, NOT
+                        WS_TABSTOP
+        GROUPBOX        "Активизация", 128, 180, 41, 120, 42
+        AUTORADIOBUTTON "Alt+Tab", RAD_ALTTAB, 188, 61, 32, 10, WS_TABSTOP
+        AUTORADIOBUTTON "Ctrl+Tab", RAD_CTRLTAB,225, 61, 34, 10
+//        AUTORADIOBUTTON "Win+Tab", RAD_WINTAB, 235, 61, 34, 10
+        AUTOCHECKBOX    "Не скрывать автоматически", CHK_STICKY, 188, 48, 104,
+                        10, NOT WS_TABSTOP
+        LTEXT           "Делитель частоты команд от колеса мыши", 127, 13, 25, 130, 8, NOT
+                        WS_GROUP
+        SPINBUTTON      SPIN_SCROLLDIV, 150, 26, 20, 12, SPBS_NUMERICONLY |
+                        SPBS_MASTER | SPBS_FASTSPIN
+    END
+END
+
+DLGTEMPLATE DLG_RUN LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Выполнить", DLG_RUN, 18, 20, 211, 40, WS_VISIBLE, FCF_SYSMENU |
+            FCF_TITLEBAR
+    BEGIN
+        CONTROL         "", CB_RUNCOMMAND, 2, -10, 206, 46, WC_COMBOBOX,
+                        CBS_DROPDOWN | LS_HORZSCROLL | WS_GROUP | WS_TABSTOP |
+                        WS_VISIBLE
+        DEFPUSHBUTTON   "~Ok", DID_OK, 53, 6, 45, 14
+        PUSHBUTTON      "~Файлы...", PB_BROWSE, 108, 6, 45, 14
+        PUSHBUTTON      "Отказ", DID_CANCEL, 163, 6, 45, 14
+    END
+END
+
+DLGTEMPLATE DLG_TASKBAR LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "", DLG_TASKBAR, 13, 11, 310, 130, NOT FS_DLGBORDER | WS_VISIBLE
+    BEGIN
+        GROUPBOX        "Отображение", 159, 9, 64, 290, 63
+        AUTOCHECKBOX    "Включить", CHK_TASKBARON, 17, 107, 58, 10
+        AUTOCHECKBOX    "Скрывать автоматически", CHK_TASKBARALWAYSVISIBLE, 17, 98, 90,
+                        10
+        AUTOCHECKBOX    "Показать только значки", CHK_ICONSONLYTSKBAR, 17, 89, 90,
+                        10
+        AUTOCHECKBOX    "Автоизменение размера", CHK_TSKBARGROW, 17, 80, 105,
+                        10
+        AUTORADIOBUTTON "Вверху экрана", RAD_TOP, 106, 107, 72, 10,
+                        WS_TABSTOP
+        AUTORADIOBUTTON "Внизу экрана", RAD_BOTTOM, 106, 98, 86, 10
+        AUTOCHECKBOX    "Уменьшить рабочую область", CHK_REDUCEDSK, 106, 89,
+                        95, 10
+        AUTOCHECKBOX    "Группировать кнопки", CHK_GROUPITEMS, 205, 107, 75, 10
+        AUTOCHECKBOX    "Плоские кнопки", CHK_FLATBTN, 205, 98, 70, 10
+        AUTOCHECKBOX	"Трехмерное отображение",CHK_3DTASKBAR, 205, 89, 90, 10
+        AUTOCHECKBOX	"Разрешить менять размер",CHK_ALLOWRESIZE, 205, 80, 90, 10
+        
+        LTEXT           "Максимальный размер кнопки", 151, 18, 68, 96, 8, NOT
+                        WS_GROUP
+        SPINBUTTON      SPIN_BTNWID, 116, 69, 25, 12, SPBS_NUMERICONLY |
+                        SPBS_MASTER | SPBS_FASTSPIN
+        GROUPBOX        "", 157, 8, 9, 84, 48, NOT WS_VISIBLE
+        AUTORADIOBUTTON "Кнопка 1", RAD_SWMBTN1, 15, 32, 75, 10,
+                        WS_TABSTOP
+        AUTORADIOBUTTON "Кнопка 2", RAD_SWMBTN2, 15, 23, 75, 10
+        AUTORADIOBUTTON "Кнопка 3", RAD_SWMBTN3, 15, 14, 75, 10
+        AUTORADIOBUTTON "Кнопки 1 и 2", RAD_SWMBTN12, 15, 5, 75, 10
+        GROUPBOX        "", 158, 108, 3, 84, 44, NOT WS_VISIBLE
+        AUTORADIOBUTTON "Кнопка 1", RAD_MINMBTN1, 115, 32, 75, 10,
+                        WS_TABSTOP
+        AUTORADIOBUTTON "Кнопка 2", RAD_MINMBTN2, 115, 23, 75, 10
+        AUTORADIOBUTTON "Кнопка 3", RAD_MINMBTN3, 115, 14, 75, 10
+        AUTORADIOBUTTON "Кнопки 1 и 2", RAD_MINMBTN12, 115, 5, 75,
+                        10
+        GROUPBOX        "", 162, 208, 3, 84, 44, NOT WS_VISIBLE
+        AUTORADIOBUTTON "Кнопка 1", RAD_CLOSEMBTN1, 215, 32, 75, 10,
+                        WS_TABSTOP
+        AUTORADIOBUTTON "Кнопка 2", RAD_CLOSEMBTN2, 215, 23, 75, 10
+        AUTORADIOBUTTON "Кнопка 3", RAD_CLOSEMBTN3, 215, 14, 75, 10
+        AUTORADIOBUTTON "Кнопки 1 и 2", RAD_CLOSEMBTN12, 215, 5, 75,
+                        10
+        LTEXT           "Переключиться", 160, 17, 44, 65, 8
+        LTEXT           "Минимизировать/скрыть", 161, 117, 44, 82, 8
+        LTEXT           "Закрыть", 163, 217, 44, 36, 8
+        GROUPBOX        "Использование мыши", 164, 9, 3, 290, 59
+    END
+END
+
+DLGTEMPLATE DLG_MISC LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "", DLG_MISC, 1, 1, 310, 116, NOT FS_DLGBORDER | WS_VISIBLE
+    BEGIN
+        LTEXT           "Язык", 302, 24, 96, 39, 8
+        CONTROL         "", COMBO_LANG, 67, 72, 71, 33, WC_COMBOBOX,
+                        CBS_DROPDOWNLIST | WS_GROUP | WS_TABSTOP |
+                        WS_VISIBLE
+        LTEXT           "Вызов окна настроек Ctrl+Alt+", 301, 23, 62, 136,
+                        8, NOT WS_GROUP
+        ENTRYFIELD      "", EF_HOTKEY, 115, 64, 9, 6, ES_MARGIN
+        GROUPBOX        "", 303, 23, 15, 230, 46
+        AUTOCHECKBOX    "Минимизировать/скрыть окна при переключении на Рабо"
+                        "чий стол",
+                        CHK_SWDESKTOP, 30, 43, 215, 10
+        AUTOCHECKBOX    "Изменить Z-порядок при минимизации/скрытии", CHK_ZORDER, 30, 31,
+                        170, 10
+        AUTOCHECKBOX    "Показать lSwitcher в списке окон", CHK_SHOWINWINLIST,
+                        30, 19, 149, 10
+    END
+END
+
+DLGTEMPLATE DLG_PRTY LOADONCALL MOVEABLE DISCARDABLE
+BEGIN
+    DIALOG  "Приоритет", 100, 31, 25, 189, 77, FS_SCREENALIGN |
+            WS_VISIBLE, FCF_SYSMENU | FCF_TITLEBAR
+    BEGIN
+        AUTORADIOBUTTON "Низкий", RAD_IDLETIME, 8, 61, 53, 10
+        AUTORADIOBUTTON "Нормальный", RAD_REGULAR, 8, 52, 50, 10
+        AUTORADIOBUTTON "Критический", RAD_CRITICAL, 8, 43, 71, 10
+        AUTORADIOBUTTON "Сервер", RAD_FGNDSERVER, 8, 34, 71, 10
+        LTEXT           "Плавно", 105, 89, 61, 22, 8
+        SPINBUTTON      SPIN_DELTA, 115, 62, 29, 12, SPBS_NUMERICONLY |
+                        SPBS_MASTER | SPBS_FASTSPIN | WS_GROUP
+        AUTOCHECKBOX    "Включая дочерние процессы", CHK_DESCENDANTS, 89, 43, 97,
+                        10
+        PUSHBUTTON      "Ok", DID_OK, 42, 7, 40, 14
+        PUSHBUTTON      "Отказ", DID_CANCEL, 103, 7, 40, 14
+    END
+END
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE
+{
+  DLG_POPUP "~Окно переключения"
+  DLG_EXCLUDE "~Фильтры"
+  DLG_TASKBAR "~Линейка задач"
+  DLG_MISC "~Разное"
+
+  STR_DLGPAGE "Страница %i из %i"
+}
+

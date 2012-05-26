@@ -1,0 +1,12 @@
+DESCRIPTION 'lSwitcher V2.71 beta1 Copyright (C) 1997-2006 Andrei Los'
+IMPORTS
+   LSWHOOK.lswHookInit
+   LSWHOOK.lswHookTerm
+   LSWHOOK.lswHookGetVersion
+   DOSGETPRTY = DOSCALLS.9
+   WINSETDESKTOPWORKAREA = PMMERGE.5468
+   WINQUERYDESKTOPWORKAREA = PMMERGE.5469
+   
+STUB 
+  ".\dostsr\lswitchd.exe"
+

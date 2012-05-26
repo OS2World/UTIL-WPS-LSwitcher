@@ -1,0 +1,92 @@
+# for use with IBM NMAKE
+
+.SUFFIXES:
+
+.SUFFIXES: .c .obj 
+
+CC = ICC.EXE
+LINK = ICC.EXE
+RC =RC.EXE
+
+#Debug
+CFLAGS = /Ss /Gm /G5 /C /Ti+
+#Release
+#CFLAGS = /Ss /Gm /G5 /C
+
+#Debug
+LFLAGS= /B" /exepack:2 /pmtype:pm /packd /optfunc /de /map"
+#Release
+#LFLAGS= /B" /exepack:2 /pmtype:pm /packd /optfunc"
+
+
+SRCDIR = .
+INCLDIR = .\H
+
+{$(SRCDIR)}.c.obj:
+    $(CC) /I$(INCLDIR) $(CFLAGS) %s
+    
+all:  lSwitch.exe
+
+lSwitch.exe: \
+    settings.obj taskbar.obj common.obj fspopup.obj pmpopup.obj object.obj lswmain.obj \
+    eastring.obj lswitch.def lswicon.res
+  $(LINK) $(LFLAGS) /FelSwitch.exe \
+    lswitch.def \
+    settings.obj \
+    taskbar.obj \
+    fspopup.obj \
+    pmpopup.obj \
+    object.obj \
+    common.obj \
+    eastring.obj \
+    lswmain.obj 
+    $(RC) $(SRCDIR)\lswicon.res lSwitch.exe
+    
+        
+settings.obj: \
+    $(SRCDIR)\settings.c $(INCLDIR)\lswitch.h $(INCLDIR)\common.h \
+    $(INCLDIR)\taskbar.h $(INCLDIR)\settings.h \
+    $(INCLDIR)\lswres.h $(INCLDIR)\prmdlg.h
+    $(CC) /I$(INCLDIR) $(CFLAGS) %s
+    
+lswmain.obj: \
+    $(SRCDIR)\lswmain.c $(INCLDIR)\lswitch.h $(INCLDIR)\common.h \
+    $(INCLDIR)\settings.h $(INCLDIR)\lswres.h 
+    $(CC) /I$(INCLDIR) $(CFLAGS) %s
+   
+taskbar.obj: \
+    $(SRCDIR)\taskbar.c $(INCLDIR)\lswitch.h $(INCLDIR)\common.h \
+    $(INCLDIR)\taskbar.h $(INCLDIR)\settings.h $(INCLDIR)\lswres.h 
+    $(CC) /I$(INCLDIR) $(CFLAGS) %s
+
+common.obj: \
+    $(SRCDIR)\common.c $(INCLDIR)\lswitch.h $(INCLDIR)\common.h \
+    $(INCLDIR)\pmpopup.h $(INCLDIR)\fspopup.h $(INCLDIR)\taskbar.h \
+    $(INCLDIR)\settings.h $(INCLDIR)\lswres.h $(INCLDIR)\apm.h \
+    $(INCLDIR)\prmdlg.h $(INCLDIR)\eastring.h $(SRCDIR)\eastring.c
+    $(CC) /I$(INCLDIR) $(CFLAGS) %s
+    
+fspopup.obj: \
+    $(SRCDIR)\fspopup.c $(INCLDIR)\lswitch.h $(INCLDIR)\common.h \
+    $(INCLDIR)\fspopup.h $(INCLDIR)\api16.h 
+    $(CC) /I$(INCLDIR) $(CFLAGS) %s
+
+object.obj: \
+    $(SRCDIR)\object.c $(INCLDIR)\object.h 
+    $(CC) /I$(INCLDIR) $(CFLAGS) %s
+    
+eastring.obj: \
+    $(SRCDIR)\eastring.c $(INCLDIR)\eastring.h 
+    $(CC) /I$(INCLDIR) $(CFLAGS) %s
+    
+pmpopup.obj: \
+    $(SRCDIR)\pmpopup.c $(INCLDIR)\lswitch.h $(INCLDIR)\common.h \
+    $(INCLDIR)\taskbar.h $(INCLDIR)\settings.h $(INCLDIR)\api16.h \
+    $(INCLDIR)\lswres.h $(INCLDIR)\prmdlg.h $(INCLDIR)\pmpopup.h
+    $(CC) /I$(INCLDIR) $(CFLAGS) %s
+    
+lswicon.res: \
+    $(SRCDIR)\LSWITCH.ICO \
+    $(INCLDIR)\lswitch.h 
+    $(RC) -i $(INCLDIR) -r $(SRCDIR)\lswicon.rc
+    

@@ -1,0 +1,26 @@
+ 
+LIBRARY LSWIDGET INITGLOBAL TERMGLOBAL
+
+Description 'lSwitcher plugin DLL V2.71 beta1 for XCenter V0.9.19+. Copyright (C) 1997-2006 Andrei Los'
+
+PROTMODE
+
+DATA    MULTIPLE READWRITE LOADONCALL NONSHARED
+;       doesn't really matter, because the widget is only ever used
+;       in the WPS process; we use MULTIPLE NONSHARED here to reduce
+;       the amount of shared memory that is needed for the DLL
+
+CODE    LOADONCALL
+
+IMPORTS
+   LSWHOOK.lswHookInit
+   LSWHOOK.lswHookTerm
+   LSWHOOK.lswHookGetVersion
+   DOSGETPRTY = DOSCALLS.9
+
+EXPORTS
+    WgtInitModule      @1
+    WgtUnInitModule    @2
+    WgtQueryVersion    @3
+
+

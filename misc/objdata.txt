@@ -1,0 +1,1366 @@
+75BE WPProgram Serviceability and Troubleshooting Guide cmd=TROUBLE.INF 20DB
+E2D9 WPProgram Trademarks cmd=TRADEMBK.INF 20DB
+17BE WPPrinter Printer cmd=                  
+95B1 WPProgram Device Driver Install cmd= 7FBA
+65CA Mindex Glossary cmd=
+7371 WPSchemePalette (null) cmd=АА
+1038 WPColorPalette Solid Color Palette cmd=
+CB40 WPColorPalette (null) cmd=
+EE6 WPFontPalette (null) cmd=
+64B3 WPProgram Program cmd= 0
+3479 WPRPrinter Network Printer cmd=XX      X                  
+8C79 WPPrinter Printer cmd=                  
+BCBD WPProgram View cmd= 20DB
+7E1E Ftp FTP-PM cmd= 0
+705 Telnet Telnet cmd= 0
+57C8 WPShadow CUBE.MAH cmd=
+4DD3 WPShadow CRAZYCUB.MAH cmd=
+C091 WPShadow BRIDGE.MAH cmd=
+27F2 WPShadow TOWERBRI.MAH cmd=
+BB14 WPShadow TAJMAHAL.MAH cmd=
+9A14 WPShadow GIZEH.MAH cmd=
+9E94 WPShadow CASTLE.MAH cmd=
+CD25 WPShadow DEFAULT.MAH cmd=
+69E3 MMLVDDevice Videodisc cmd=
+9A7F MMCDDevice Compact Disc cmd=
+5E52 WPShadow READ.ME cmd=
+28AB WPProgram DMI MIF Browser cmd= 4B7C
+6D24 WPProgram System Error Log cmd= BAF9
+832 WPShadow Problem Determination Tools cmd=
+9D2A WPShadow Support through the Internet cmd=
+1207 WPProgram File and Print Client
+Install/Remove cmd=/20 6D24
+4F6D WPProgram eCS Calculator cmd= 3FE9
+25A5 WPProgram Read ME cmd=E.EXE 0
+66E8 WPProgram eStylerLite - User's Guide cmd=VIEW.EXE 0
+AC6E WPProgram Documentation cmd=NETSCAPE.EXE 0
+CA6C WPProgram Trace Facilities Guide cmd=OS2TRACE.INF 20DB
+C7D6 WPProgram Stop FFST/2 cmd=OFF 889D
+BA95 WPProgram Start FFST/2 cmd=ON 889D
+66A4 WPProgram Message Console cmd= A4BF
+A648 WPProgram Dump Formatter cmd= 28B8
+AFB7 WPProgram Message Log Formatter cmd=* BAE5
+6F61 WPShadow TCP/IP
+Command Reference cmd=
+5FEB WPShadow REXX Sockets API cmd=
+1D8A WPShadow REXX FTP API cmd=
+8D2B WPShadow URL cmd=
+7372 WPShadow URL Folder cmd=
+1039 WPShadow FTP Host cmd=
+EE7 WPProgram LAN Server Administration
+Error Messages cmd=e.exe 0
+64B4 WPProgram LAN Server Read Me cmd=e.exe 0
+20DC WPShadow eCS Task Planner cmd=
+6E9 WPShadow eCS Clock cmd=
+8378 WPShadow eCS Scheduler cmd=
+3BA0 WPShadow TCP/IP DNS Administration cmd=
+287 WPShadow TCP/IP DHCP and Dynamic IP
+Introduction cmd=
+9DF1 WPShadow TCP/IP DHCP Administration cmd=
+ABA2 WPShadow TCP/IP Read Me cmd=
+4B1E WPShadow TCP/IP for DOS/Windows
+Read Me cmd=
+AAFE WPShadow TCP/IP Guide cmd=
+6FC9 WPShadow InJoy cmd=
+309B WPProgram License for
+eComStation cmd=E.EXE 0
+EAF WPProgram F/X Communications
+(www.fx.dk) cmd=NETSCAPE.EXE 0
+86FA WPProgram Readme First cmd=E.EXE 0
+B8C7 WPProgram Readme cmd=E.EXE 0
+116C WPProgram Users Guide cmd=E.EXE 0
+8452 WPProgram IPSec
+Plugin cmd=NETSCAPE.EXE 0
+74A7 WPProgram Filter
+Plugin cmd=E.EXE 0
+C5ED WPProgram Firewall
+Plugin cmd=E.EXE 0
+C57F WPProgram File_ID.DIZ cmd=E.EXE 0
+C58E WPProgram FAQ cmd=E.EXE 0
+DD23 WPProgram License
+Agreement cmd=E.EXE 0
+7DD9 WPProgram Reread filter
+configuration cmd=-filter AC55
+8D20 WPProgram Reread firewall
+configuration cmd=-firewall AC55
+95B2 WPProgram KillJoy cmd= 876
+8CA6 WPShadow README2 cmd=
+B801 WPShadow READ.ME cmd=
+6F60 WPSound Sound cmd=
+76AC WPProgram Trace Documentation cmd=D:\OS2\BOOK\TRACEREF.INF 20DB
+275A WPProgram PM Dump Facility Documentation cmd=D:\OS2\BOOK\PMDF.INF 20DB
+71A3 WPProgram Trace Formatter cmd= 76AC
+E2A5 WPProgram Trace Formatter cmd= 76AC
+1F1F WPProgram PM Dump Facility cmd= 872
+2C67 WPShadow Refresh Removable Media cmd=
+85D9 WPProgram CPU Monitor cmd= D54C
+116B WPProgram Create Installation Diskettes cmd= 29AC
+9F4F WPProgram REXX Information cmd=REXX.INF 20DB
+9188 WPKeyboard Keyboard cmd=REXX.INF
+6703 WPProgram Setup cmd= 76AD
+E471 WPShadow config cmd=
+454C WPProgram SafeFire PPP Configuration cmd=-C"%*" C485
+94D5 WPProgram SafeFire PPP (Console) cmd=-C[Enter Configuration File Name] CD27
+C100 WPShadow SafeFire PPP cmd=
+96F WPProgram Описание DC User Pack cmd=VIEW.EXE 0
+4DB5 WPShadow Installing and Using
+SmartSuite Products cmd=
+59DA WPProgram Organizer
+ Product Updates cmd=E.EXE 0
+657F WPProgram Approach 
+Product Updates cmd=E.EXE 0
+6834 WPProgram 1-2-3
+Product Updates cmd=E.EXE 0
+2F02 WPProgram Word Pro
+Product Updates cmd=E.EXE 0
+B9D3 WPShadow Lotus Word Pro
+SmartMaster Templates cmd=
+B4F8 WPProgram Lotus Freelance Graphics
+ for OS/2 Warp 4
+ ScreenShow Player cmd= AA62
+A7D9 WPProgram Freelance
+ Product Updates cmd=E.EXE 0
+7D6E WPProgram ODBC
+ Administrator Help cmd=VIEW.EXE 0
+434 WPProgram ODBC
+ Administrator cmd= 9AD4
+D982 WPProgram Swedish License Agreement cmd=E.EXE 0
+5171 WPProgram Spanish License Agreement cmd=E.EXE 0
+7B96 WPProgram Portuguese License Agreement cmd=E.EXE 0
+19C3 WPProgram Norwegian License Agreement cmd=E.EXE 0
+3EB1 WPProgram Italian License Agreement cmd=E.EXE 0
+CF91 WPProgram German License Agreement cmd=E.EXE 0
+3A8 WPProgram French License Agreement cmd=E.EXE 0
+14CF WPProgram Finnish License Agreement cmd=E.EXE 0
+631B WPProgram Dutch License Agreement cmd=E.EXE 0
+56EF WPProgram Danish License Agreement cmd=E.EXE 0
+87C6 WPProgram SmartSuite
+ Product Updates cmd=E.EXE 0
+2795 WPProgram WiseMachine cmd=D:  90B9
+1186 WPProgram Seek and Scan Files cmd= 9319
+1D89 WPSpool Spooler cmd=
+9A6E WPShadow README cmd=
+B880 WPProgram C/C++
+Window cmd=CMD.EXE 0
+840C WPProgram Migrate WorkFrame Projects cmd= 2897
+5C27 WPProgram C++ Browser cmd= E0D2
+1365 WPProgram PM Debugger cmd= 5074
+8AF6 WPProgram Performance Analyzer cmd= 5C7B
+3F8F WPProgram Visual Builder cmd= D6C0
+1367 WPProgram Editor cmd=EVFXLXPM.EXE 0
+DAB9 WPProgram Data Access Builder
+How Do I cmd=VIEW.EXE 0
+C2A9 WPProgram WorkFrame
+How Do I cmd=VIEW.EXE 0
+8E64 WPProgram Performance Analyzer
+How Do I cmd=VIEW.EXE 0
+A02C WPProgram Browser
+How Do I cmd=VIEW.EXE 0
+E23C WPProgram Frequently Asked
+Questions cmd=VIEW.EXE 0
+2E02 WPProgram What's New cmd=VIEW.EXE 0
+9802 WPProgram Debugger
+How Do I cmd=VIEW.EXE 0
+ABCC WPProgram Editor
+How Do I cmd=VIEW.EXE 0
+1330 WPProgram Visual Builder
+How Do I cmd=VIEW.EXE 0
+E027 WPProgram VisualAge C++
+How Do I cmd=VIEW.EXE 0
+165 WPProgram Visual Builder
+User's Guide cmd=VIEW.EXE 0
+2CB5 WPProgram Visual Builder
+Parts Reference cmd=VIEW.EXE 0
+162F WPProgram Editor Command
+Reference cmd=VIEW.EXE 0
+A5E9 WPProgram Open Class Library
+User's Guide cmd=VIEW.EXE 0
+B48E WPProgram Open Class
+Library Reference cmd=VIEW.EXE 0
+142B WPProgram Guide to
+Sample Programs cmd=VIEW.EXE 0
+83F1 WPProgram Welcome to
+VisualAge C++ cmd=VIEW.EXE 0
+DF8 WPProgram Building VisualAge C++
+Parts for Fun and Profit cmd=VIEW.EXE 0
+C3E7 WPShadow VISBUILD cmd=
+E804 WPShadow IOC cmd=AMPIOC>
+D870 WPShadow EDITOR cmd=
+2F58 WPShadow DATABASE cmd=
+7595 WPShadow COMPILER cmd=
+546A WPShadow WELCOME cmd=
+DF2B IWFRouter WorkFrame Message Router cmd=
+C205 WPProgram Legacy Resource Compiler
+(RC16) Reference cmd=rc16.inf 20DB
+6727 WPProgram Icon Editor cmd= 59A1
+11E5 WPProgram Font Editor cmd= B451
+6202 WPProgram Dialog Editor cmd= 120A
+93DC WPShadow readme cmd=
+D3F9 WPProgram Direct Manipulation
+(Dragdrop) Sample cmd= CF7B
+AE46 WPProgram Introductory
+Dialog Box Sample cmd= B804
+9BD3 WPProgram Clipboard Sample cmd= 79AA
+1E61 WPProgram Non-retained
+Graphics Sample cmd= 2C7F
+59BA WPProgram Standard Window
+Sample cmd= E2DD
+4F33 WPProgram Console I/O Sample cmd=-30 6FCD
+C061 WPProgram Virtual Memory
+Management Sample cmd= 309E
+B0F2 WPProgram High Resolution
+Timer Sample cmd= 86FD
+56F9 WPProgram Multithreaded Sample
+(Sorting Algorithm) cmd= 116F
+AA03 WPProgram Semaphore Sample cmd= 74AA
+8C7 WPProgram Interprocess
+Communication
+Queue Sample cmd=D:\os2tk45\samples\os2\queues\CLIQUEUE.EXE C587
+A7BD WPProgram Named Pipes
+Sample cmd=D:\os2tk45\samples\os2\npipe\CLINPIPE.EXE DD27
+1E65 WPProgram Multithreaded Sample
+(Towers of Hanoi) cmd= 8D23
+4AFF WPProgram Extended Attributes
+Editor cmd= 20DF
+44EA WPProgram Dynamic Link
+Library Sample cmd= 6ED
+72A4 WPProgram Timer Services
+Sample cmd= 837A
+9CC0 WPProgram PM 16-bit to 32-bit
+Porting Sample cmd= 1A93
+27EB WPProgram REXX Start and
+Guard Sample cmd= 9DF3
+D2AC WPProgram REXX Stack
+Sample cmd= AB00
+749E WPProgram REXX Query
+Time Sample cmd= 6F63
+5F33 WPProgram REXX Query
+Date Sample cmd= 5FED
+3539 WPProgram REXX Pipe
+Sample cmd= 1D8C
+18B4 WPProgram REXX Guard and
+Reply Sample cmd= 82AD
+566D WPProgram REXX Factorial
+Sample cmd= 47FC
+435B WPProgram REXX Display Month
+Array Sample cmd= B80
+3905 WPProgram REXX Directives Sample cmd= CBE8
+D057 WPProgram REXX Concurrency
+Sample cmd= E6F0
+38D WPProgram REXX Complex
+Number Sample cmd= 8975
+1F7A WPProgram REXX Workplace Shell
+Folder Sample cmd= C31A
+DE7A WPProgram REXX Workplace Shell
+Class Sample cmd= 8E58
+D9BD WPProgram REXX SOM Animal
+Class Sample cmd= BA78
+6900 WPProgram Presentation Manager
+REXX Calculator Sample cmd= E9A6
+B235 WPProgram External Functions in
+REXX Macrospace Sample cmd= 5984
+6E64 WPProgram REXX Utility
+Functions Sample cmd= 5DF6
+641 WPProgram Presentation Manager
+REXX Interface Sample cmd=REXXTRY.CMD 3643
+9CD WPProgram REXX Variable Pool
+Interface Sample cmd= BD30
+B489 WPProgram REXX Interpreter
+Invocation Sample cmd= A088
+A77C WPProgram Information Presentation
+Facility Sample cmd=D:\os2tk45\samples\pm\ipf\ipf.inf 20DB
+58C4 WPProgram Bitmap Manipulation
+Sample cmd= 646F
+A3CC WPProgram Palette Sample cmd= D48
+C1EF WPProgram Printer Sample Program cmd= 4D3D
+E14D WPProgram Workplace Shell
+Programming Reference cmd=WPS1.INF+WPS2.INF+WPS3.INF 20DB
+B259 WPProgram Windows Sockets cmd=winsoc11.inf 20DB
+C9C5 WPProgram TCP/IP Programming Reference cmd=tcppr.inf 20DB
+19C1 WPProgram SOM Programming Reference cmd=somref.inf 20DB
+832E WPProgram SOM Programming Guide cmd=somguide.inf 20DB
+7F75 WPShadow rxstring.doc cmd=
+2228 WPProgram OpenGL Programming
+Reference cmd=oglbase.inf 20DB
+5523 WPProgram Open32 Programming Guide
+and Reference cmd=open32.inf 20DB
+B751 WPProgram Multimedia Subsystem
+Programming Guide cmd=mmsspg.inf 20DB
+C77D WPProgram Multimedia Programming
+Reference cmd=MMREF1.INF+MMREF2.INF+MMREF3.INF 20DB
+26E WPProgram IPF Programming
+Guide and Reference cmd=ipfref.inf 20DB
+57C3 WPProgram OS/2 Debugging Handbook cmd=sg244640.inf 20DB
+474F WPProgram Bidirectional Language
+Programming Guide cmd=pmbdtech.inf 20DB
+E00D WPProgram PM Controls Sample cmd= D15E
+5CBF WPShadow readme.p2s cmd=
+57CD WPProgram MIDI Conversion Utility cmd= 25A7
+855C WPProgram Non-Linear Video Sample cmd= 1FA9
+AE57 WPProgram Image Browser Sample cmd= 2762
+A678 WPProgram TV Tuner Sample cmd= 1D37
+13EA WPProgram Double Buffering Playlist cmd= AD67
+CABF WPProgram Audio Recorder Sample cmd= C805
+805A WPProgram Movie Sample Application cmd= 14AF
+3B5B WPProgram Media Control Interface
+String Test Sample cmd= 5208
+7E99 WPProgram Streaming and 
+Non-Streaming Device 
+Duet Sample cmd= 72A6
+97AC WPProgram Streaming Device
+Duet Sample cmd= 8293
+675B WPProgram DIVE
+(Direct Interface Video Extensions)
+Sample cmd= AEB3
+7899 WPProgram Memory Playlist Sample cmd= 99D5
+F84 WPProgram Caption Creation Utility cmd= 3DD0
+1331 WPProgram Caption Sample Application cmd= 11AA
+1D58 WPProgram AVC I/O Procedure
+Installation Sample cmd= E2D5
+5FA6 WPShadow gamesrvr.doc cmd=
+620F WPProgram Application Template cmd= 8138
+1F96 WPProgram Grammar Compiler cmd=CMD.EXE 0
+1100 WPProgram FSG Test
+Utility cmd=CMD.EXE 0
+BE35 WPProgram FSG Print
+Utility cmd=CMD.EXE 0
+3D93 WPProgram FSG Enumerator
+Utility cmd=CMD.EXE 0
+CFB8 WPShadow readme.vtd cmd=
+E4A WPShadow strkrh.bmp cmd=
+A945 WPShadow strkr.bmp cmd=
+A729 WPShadow strkah.bmp cmd=
+9224 WPShadow strka.bmp cmd=
+38EE WPShadow sstoph.bmp cmd=
+5208 WPShadow sstop.bmp cmd=
+A1F WPShadow sstepf.bmp cmd=
+946 WPShadow sstepb.bmp cmd=
+4339 WPShadow sscanf5.bmp cmd=
+23BB WPShadow sscanf4.bmp cmd=
+5C8 WPShadow sscanf3.bmp cmd=
+E1FB WPShadow sscanf2.bmp cmd=
+E3EA WPShadow sscanf1.bmp cmd=
+B89 WPShadow sscanf0.bmp cmd=
+62E0 WPShadow sscanf.bmp cmd=
+3F60 WPShadow sscanb5.bmp cmd=
+5127 WPShadow sscanb4.bmp cmd=
+14E5 WPShadow sscanb3.bmp cmd=
+6E89 WPShadow sscanb2.bmp cmd=
+5560 WPShadow sscanb1.bmp cmd=
+85B4 WPShadow sscanb0.bmp cmd=
+AE4B WPShadow sscanb.bmp cmd=
+912B WPShadow srew0h.bmp cmd=
+50A7 WPShadow srew.bmp cmd=
+CD1E WPShadow srec1.bmp cmd=
+DC1B WPShadow srec0.bmp cmd=
+7DFC WPShadow splayh.bmp cmd=
+265F WPShadow splay4.bmp cmd=
+D2E2 WPShadow splay3.bmp cmd=
+96D5 WPShadow splay2.bmp cmd=
+945E WPShadow splay1.bmp cmd=
+4590 WPShadow splay0.bmp cmd=
+504F WPShadow spauseh.bmp cmd=
+CD2A WPShadow spause.bmp cmd=
+B9DB WPShadow sff0h.bmp cmd=
+A4E6 WPShadow sff.bmp cmd=
+E197 WPShadow sejecth.bmp cmd=
+CEA9 WPShadow seject.bmp cmd=
+26C6 WPShadow Development cmd=
+387B WPProgram ALP Programming
+Guide and Reference cmd=alpref.inf 20DB
+9036 WPProgram Add-In Tools Guide cmd=view.exe 0
+16F3 WPProgram CP Reference cmd=view.exe 0
+3 WPProgram Tools Reference cmd=view.exe 0
+7162 WPProgram SOM Reference cmd=view.exe 0
+C65F WPProgram IPFC Reference cmd=view.exe 0
+3C76 WPProgram REXX Reference cmd=view.exe 0
+47CF WPProgram C++ Error Messages cmd=view.exe 0
+C163 WPProgram C Error Messages cmd=view.exe 0
+9B7 WPProgram C++ Library Reference cmd=view.exe 0
+9AF8 WPProgram Debugger Help cmd=view.exe 0
+CDA3 WPProgram IDE Help cmd=view.exe 0
+193A WPProgram Profiler Help cmd=view.exe 0
+11DE WPProgram Source Browser Help cmd=view.exe 0
+799A WPProgram Named Pipe Remote Link cmd= 9362
+26F8 WPProgram OS/2 VDM Remote Link cmd= AC72
+547B WPProgram Icon Editor cmd= 7618
+E1E7 WPProgram Font Editor cmd= 5F04
+9F70 WPProgram Dialog Editor cmd= 4CDB
+5DCC WPProgram Windowed Debugger cmd= 8353
+DC82 WPProgram Read Me cmd=e.exe 0
+9585 WPProgram Getting Started cmd=view.exe 0
+1B7B WPProgram eCS Task Planner cmd= DF95
+90E WPProgram Lotus Organizer for eCS cmd= 4651
+67C5 WPProgram Purchase
+ProNews/2 cmd= F52
+C9F7 WPProgram ProNews/2
+README cmd=e.exe 0
+A8DC WPProgram PMMail/2 Help cmd=VIEWHELP.EXE 0
+1DED WPProgram Purchase PMMail/2 cmd= 7771
+A619 WPProgram English License Agreement cmd=E.EXE 0
+3048 WPProgram eCS Scheduler cmd= 3EA6
+597 WPProgram C/C++ Master Index cmd=view.exe 0
+78A6 WPProgram User's Guide cmd=view.exe 0
+4B1D WPSystem System cmd=view.exe
+786 WPProgram Gogo Readme cmd=E.EXE 0
+1448 WPProgram Gogo encoder cmd= 5F06
+34C9 WPProgram FILE_ID.DIZ cmd=E.EXE 0
+25B3 WPProgram CDR/RW Wizard Readme cmd=E.EXE 0
+9CA WPShadow URLs cmd=WP_PMDCURLSFOLDERSHADOW>
+7AB4 WPShadow Scan cmd=WP_PMDCSCANFOLDERSHADOW>
+AFCB WPShadow Download cmd=
+35C5 WPProgram Linker Guide cmd=view.exe 0
+D10 WPProgram Tools Guide cmd=view.exe 0
+B51C WPProgram Programmer's Guide cmd=view.exe 0
+EA4B WPProgram PM Reference cmd=view.exe 0
+920C WPProgram Lotus Freelance Graphics for eCS cmd= 303F
+8D1F WPProgram Selective Uninstall cmd= 8134
+20DB WPProgram Selective Install cmd= D15A
+C2DF WPShadow OS2CHESS.FLC cmd=
+E828 WPShadow MAHJONGG.FLC cmd=
+71B0 WPShadow KLONDIKE.FLC cmd=
+A416 WPShadow Movies cmd=
+1B29 WPShadow Bitmaps cmd=
+B22B WPShadow Images cmd=
+4C27 WPShadow Sound Bites cmd=
+95F7 WPShadow Sound cmd=<MMPM2_SNDSHAD>
+6700 WPProgram Multimedia
+With REXX cmd=D:\MMOS2\MCIREXX.INF 20DB
+3ED0 WPProgram Multimedia
+Application Install cmd= CD25
+8C7A WPProgram Debug Window cmd=PMREXX.EXE 0
+AD98 WPProgram OS/2 Plug-In Pack v3.0
+ReadMe cmd=E.EXE 0
+576E MMInetMgr Multimedia
+Internet Manager cmd=
+3756 WPShadow Win/eCS Session (Window) cmd=
+747E WPShadow DOS Session (Window) cmd=
+3CF9 WPShadow Drives cmd= 
+CFCD WPShadow Shredder cmd=
+D116 WPShadow Help Center cmd=
+5297 WPShadow Command Prompt (Window) cmd=
+E229 WPShadow Drive A cmd=  
+4388 WPProgram Object REXX Programming
+Guide for OS/2 cmd=rexxpg.inf 20DB
+79A6 WPProgram Enhanced Editor cmd= 72A2
+20E1 WPProgram SCMouse cmd= CEF
+45F5 SCShadow File Commanders cmd=
+47A5 SCShadow Utilities cmd=
+E073 SCShadow Internet cmd=
+C5C8 SCShadow Command Prompts cmd=
+7660 SCShadow System Setup cmd=
+7FBA SCShadow Drives cmd= 
+365F WPProgram Zplay cmd= 9C83
+1737 WPProgram Install WPS-Wizard Addon cmd=1 BB09
+63E4 WPProgram Wavefile Info cmd=D:\OS2Util\CDCreator 0 "%*" 95FB
+90A9 WPProgram MP3-file Info cmd=D:\OS2Util\CDCreator 1 "%*" 95FB
+6E38 WPProgram Recreate WPS-Objects cmd= 2768
+647 WPShadow Uninstall CD-Creator cmd=
+29C5 WPProgram Uninstall CD-Creator cmd= 523C
+4382 WPShadow Create Data-CD cmd=
+C1A WPShadow Create Audio-CD cmd=
+743D WPShadow Docs cmd=CWCREATOR_DOCS>
+9AE8 WPShadow PRG cmd=
+37BC WPShadow PMMail220 cmd=
+DB5 WPShadow Document cmd=
+A693 SCShadow STOP cmd=
+EE8 WPProgram DMI Programmer's Guide cmd=dnal1mst.inf 20DB
+8377 Mindex Help Index cmd=
+DF95 WPProgram Lotus Approach for eCS cmd= 6460
+8D65 WPProgram ProNews/2 1.50 Beta 1 cmd= 357D
+347A WPProgram Local Workstation Logon cmd=LOGON.EXE 0
+1695 WPProgram DDNS Configuration cmd= 57B
+1295 WPProgram FTE editor cmd= 9D33
+839C XWPString Setup string cmd=
+67F8 WPProgram Workplace Shell
+Programming Guide cmd=wpsguide.inf 20DB
+2C7B WPProgram Command Reference cmd=CMDREF.INF 20DB
+7D11 WPProgram DPI Programmer's Guide cmd=dpil1mst.inf 20DB
+47F4 WPProgram OS/2 Plug-In Pack v3.0
+ReadMe cmd=E.EXE 0
+4017 WPProgram Uninstall Flash 5 Player cmd=CMD.EXE 0
+3977 WPShadow license.txt cmd=
+7EDB WPShadow readme.txt cmd=
+97A3 WPProgram Macromedia Flash 5 Player cmd= 6901
+5F00 WPProgram Zampa cmd= 25A5
+C79D WPProgram Odin User's
+Manual cmd=VIEW.EXE 0
+5E89 WPProgram Report Odin Bugs
+Manual cmd=VIEW.EXE 0
+A8FB WPProgram Report Odin Bugs
+ReadMe cmd=E.EXE 0
+970 WPProgram Registry Editor cmd=REGEDIT2.EXE 0
+BF3D WPProgram WGSS50 License cmd=E.EXE 0
+5E2 WPProgram License cmd=E.EXE 0
+58FE WPProgram ChangeLog cmd=E.EXE 0
+40B9 WPProgram Readme cmd=E.EXE 0
+C5A6 SCShadow BACK cmd=
+AD91 SCShadow INTRO cmd=
+3F0B SCShadow Volume cmd= 
+78A5 WPProgram StarOffice 5.1 cmd= A369
+8D31 WPProgram ScreenSaver cmd= C335
+3C4F WPProgram Multimedia Application
+Programming Guide cmd=mmapg.inf 20DB
+BA3C WPProgram LBMix cmd= 3DC0
+BB31 WPProgram Uninstall cmd= 0
+646D WPProgram License cmd=E.EXE 0
+BD7C WPProgram Latest information cmd=E.EXE 0
+2A1C WPShadow twain.txt cmd=
+31CF WPShadow trouble.txt cmd=
+8CD6 WPShadow readme.txt cmd=
+8567 WPShadow PMView 2000 cmd=
+CF77 WPProgram Clipboard Viewer cmd= 14AB
+2EB7 SCShadow SKIP cmd=
+D197 WPShadow Reference Manual cmd=
+18B0 WPShadow Getting Started cmd=
+DF67 WPShadow Release Notes cmd=
+DC5 PMVDDrop PMVDDrop cmd=
+2AA7 WPProgram Online Help cmd=VIEW.EXE 0
+1A25 WPProgram PMView Pro cmd= C5A8
+3327 WPShadow xworkplace cmd=
+8790 WPProgram C Library Reference cmd=xpg4ref.inf 20DB
+2D0D WPProgram Pack this tree cmd= 4DBE
+C8F9 WPProgram Netscape (DDE) cmd= 917
+E753 WPProgram --- cmd= 0
+22A9 WPShadow XWorkplace Configuration Folder cmd=
+1B3C WPShadow XWorkplace User Guide cmd=
+9887 WPShadow OS/2 Kernel cmd=
+2078 WPShadow Screen cmd=
+BC19 WPShadow Keyboard cmd=
+7682 WPShadow Workplace Shell cmd=
+2764 WPShadow XWorkplace Setup cmd=
+98E9 WPProgram Program object cmd= 0
+B1C WPProgram DOS f~ullscreen cmd=% FFFF
+E141 WPProgram ~DOS window cmd=% FFFF
+8A38 WPProgram OS/2 ~fullscreen cmd=% FFFF
+C2FC WPProgram ~OS/2 window cmd=% FFFF
+11A9 WPProgram eXtended Shutdown... cmd= 43F1
+D5B5 XWPString Setup string cmd=
+5C9D WPShadow WPS Class List cmd=
+6082 XWPClassList WPS Class List cmd=t
+7A10 WPShadow Sound cmd=<XWP_SOUNDMAINSHADOW>
+C530 WPShadow Keyboard cmd=
+52FB WPShadow Multimedia cmd=
+4E37 XWPMedia Multimedia cmd=
+BFDD WPShadow Screen cmd=
+D4C3 XWPScreen Screen cmd=
+E891 WPShadow OS/2 Kernel cmd=
+3D22 XFldSystem OS/2 Kernel cmd=
+44BC WPShadow Workplace Shell cmd=
+E3A1 XFldWPS Workplace Shell cmd=
+B727 WPShadow Fonts cmd=<XWP_FONTFOLDERSHADOW>
+4B79 WPShadow XWorkplace Setup cmd=
+CEC XWPSetup XWorkplace Setup cmd=
+229B WPShadow readme cmd=
+4A6C WPProgram XWorkplace User Guide cmd=view.exe 0
+40CC SCShadow PAUSE cmd=
+C4CF SCShadow PLAY cmd=
+98A3 SCShadow POWER cmd=
+8B08 SCShadow EJECT cmd=
+5E4E WPProgram Treesize cmd= 59E2
+BF75 WPProgram Multimedia
+Setup cmd= C483
+B800 WPProgram Icon Editor cmd= 5204
+BB54 WPShadow Installation/Deinstallation cmd=
+A960 WPProgram Open CDRTools
+CMD window cmd= FFFF
+64F1 WPProgram Scan the SCSI/ATAPI bus
+for devices cmd=/K "mode 110,40 & "D:\os2util\CDR2_0_0\cdrecord" -scanbus 2>&1 |more & pause &exit" FFFF
+10C9 WPShadow COPYING cmd=
+1DAC WPShadow CDR2_0_0 cmd=
+DEB9 WPShadow man cmd=DRT_MANSHW>
+6852 WPShadow doc cmd=DRT_DOCSHW>
+6DD0 WPProgram CDRTools Readme cmd=E.EXE 0
+D536 WPShadow aspirout.txt cmd=
+BD6A WPProgram Set Audio/Data-CD-Creator
+options cmd= 3C53
+4CD7 WPProgram eCS Theme Manager cmd=D:\OS2\ThemeMGR 599E
+8350 WPProgram eStylerLite - Preferences cmd= 1207
+8747 WPProgram Help Viewer cmd= 514
+1A8F WPProgram Using LVM cmd=USINGLVM.INF 20DB
+E9CD WPProgram eCS Desktop Guide cmd=OS2UG.INF 20DB
+6C3C WPProgram NMAKE32 Reference cmd=nmake32.inf 20DB
+8D90 WPProgram Picture Viewer cmd= 4B0
+C967 WPProgram Klondike Solitaire cmd= BE22
+6BE5 WPProgram OS/2 Chess cmd= ADCC
+36B9 WPShadow ecstest.trk cmd=
+8473 WPShadow SafeFire-Sitel cmd=
+20F9 WPShadow SafeFire-Sitel cmd=
+4A00 WPProgram CDR/RW Creator Wizard 1.0.0 beta cmd= 4CDD
+978E WPProgram Problem Determination
+Guide and Reference cmd=pdguide.inf 20DB
+BAEC WPProgram Network Adapters
+and Protocol Services cmd= E4
+B754 WPProgram Tools Reference cmd=toolsref.inf 20DB
+D2D3 WPProgram C/C++ Programming Guide cmd=VIEW.EXE 0
+B48C WPProgram C Library Reference cmd=view.exe 0
+47B3 WPProgram C/C++ Language
+Reference cmd=VIEW.EXE 0
+567B WPProgram C Library
+Reference cmd=VIEW.EXE 0
+692E WPMouse Mouse cmd=VIEW.EXE
+3C2B AMouse AMouse cmd=VIEW.EXE
+CEF1 WPProgram C-Media Control cmd= 79E0
+6E8 WPProgram Using Online Information cmd=ONLINE.INF 20DB
+2418 WPProgram System Info cmd= 2053
+26CD WPProgram C/C++ User's Guide cmd=VIEW.EXE 0
+2DEA WPProgram IDE cmd= 4F71
+5259 WPShadow eCSMT.EXE cmd=
+A323 WPProgram C Language Reference cmd=view.exe 0
+2399 WPProgram lSwitcher cmd=E:\PRG\lSwitch\V261\src\lSwitch.ex 0
+32F7 WPProgram InJoy cmd= 45F5
+1825 WPProgram PM Spy cmd= C4C2
+65CB WPProgram eCS Clock cmd= 6834
+4365 WPProgram WarpVision cmd= 95BE
+3B7D WPShadow OS/2 Netlabs
+Open Source Archive Client cmd=
+BD0 WPProgram Edit
+CVS configuration cmd=E.EXE 0
+26B1 WPShadow xwpwidgets cmd=
+E2B6 WPShadow xwphelpers cmd=
+C9C3 WPProgram xwphelpers
+OS/2 Window cmd=cmd.exe 0
+A4 WPProgram Presentation Manager Programming
+Guide and Reference cmd=PM1.INF+PM2.INF+PM3.INF+PM4.INF+PM5.INF 20DB
+70B4 WPProgram Origin cmd= 79A9
+E270 WPProgram IBM OS/2 Server Family
+Programming Reference cmd=srvfpgr.inf 20DB
+587B WPProgram Control Program Programming
+Guide and Reference cmd=CP1.INF+CP2.INF+CP3.INF 20DB
+4127 WPProgram C/C++ Master Index cmd=view.exe 0
+6880 WPProgram Resource Compiler cmd=view.exe 0
+60DA WPProgram Tools User's Guide cmd=view.exe 0
+61E5 WPProgram C Language Reference cmd=view.exe 0
+9B96 WPProgram C++ Library Reference cmd=view.exe 0
+2E33 WPProgram Linker Guide cmd=view.exe 0
+8D54 WPProgram Programmer's Guide cmd=view.exe 0
+209 WPProgram C/C++ User's Guide cmd=view.exe 0
+4EDD WPProgram Getting Started cmd=view.exe 0
+154 WPProgram Execution Profiler cmd= 6D34
+2210 WPProgram Source Browser cmd= 28CC
+99A3 WPProgram Debugger cmd= 277B
+B841 AdvDialer IBM Internet
+Dialer cmd= 5B19
+D44C Telnet Telnet
+(Modem) cmd= 0
+B8E2 Ftp FTP-PM
+(Modem) cmd=WPProgram 0
+BC9F Telnet Telnet
+Modem cmd= 0
+1B8C Ftp FTP-PM
+Modem cmd=WPProgram 0
+87B0 WPShadow Secure Remote
+IP Client
+Configuration cmd=	
+B389 WPProgram Dial Other
+Internet Providers cmd=SLIPPM.EXE 0
+9319 Telnet Telnet cmd= 0
+DF3F Ftp FTP-PM cmd= 0
+620E WPProgram How do I
+use Templates? cmd=VIEWHELP.EXE 0
+8290 Telnet TelnetPM cmd=NETPM.EXE 0
+D0F7 Ftp FTP-PM cmd= 0
+AEAF WPProgram TCP/IP Startup cmd=TCPSTART.CMD 0
+99D1 WPProgram Telnet
+Customization cmd=SETTERM.EXE 0
+204B WPProgram PM Ping cmd=PMPING.EXE 0
+9BE0 WPShadow TCP/IP
+Configuration
+(Local) cmd=
+1FA5 WPProgram Ping cmd=0.0.0.0 6308
+2895 WPProgram WPing cmd= C854
+971 WPShadow Uninstall
+TCP/IP 4.3 cmd=
+43D4 WPShadow Create TCP/IP
+Administrator Password cmd=
+D985 WPShadow TCP/IP DHCP
+and Dynamic IP
+Introduction cmd=
+AE6D WPProgram DHCP Client
+Monitor cmd=DHCPMON.EXE 0
+95DD WPProgram DHCP
+Server cmd=DHCPSD.EXE 0
+20D5 WPShadow Create TCP/IP
+Administrator Password cmd=
+B165 WPProgram DDNS Client
+Configuration cmd=DDNSCFG.EXE 0
+303B WPProgram DDNS
+Server cmd=NAMED.EXE 0
+4C4B WPProgram OS/2 Kit for Java License cmd=E.EXE 0
+40 WPProgram Latest Information cmd=E.EXE 0
+E59D AMouse AMouse cmd=E.EXE
+B59 WPProgram xwpwidgets
+OS/2 Window cmd=cmd.exe 0
+7853 WPProgram --- cmd= 0
+86B9 WPProgram xworkplace
+OS/2 Window cmd=cmd.exe 0
+6CF8 WPProgram PMPDF Control panel cmd= 299C
+2D41 WPProgram IDE cmd= 76BD
+C33B WPShadow WiseMachine cmd=
+DB49 WPProgram Гоблины cmd= FFFF
+A533 WPShadow Кодировщик Буфера Обмена cmd=
+26F3 WPShadow Netscape
+Communicator cmd=
+4463 WPProgram Open Watcom Prompt cmd=cmd.exe 0
+B18D WPShadow aspirout.txt cmd=
+DEB4 SCShadow OpenOffice.org 1.1.1 cmd=
+5F23 WPShadow InJoy cmd=
+2978 SCShadow LBMix cmd=
+24EC MMCDDevice Compact Disc 3 cmd=
+8134 SCShadow Printers cmd=
+C8B1 WPProgram PMMail/2 cmd= BAEB
+9900 XCenter XCenter cmd=XButton
+8919 WPColorPalette Solid Color Palette cmd=
+6538 WPProgram Character map cmd= 669D
+ACB7 WPProgram Set File Associations cmd= C5A9
+6292 WPProgram Set File Associations cmd= DFE2
+AD52 WPProgram PMView 2000 cmd= B190
+A7DB MMVolume Volume cmd=       
+B6AA WPProgram LifeDPMS cmd= A7FE
+646B WPLaunchPad Toolbar cmd=
+BE48 WPDisk Drive T cmd=
+5207 WPDisk Drive H cmd=    
+7C7F WPDisk Drive G cmd=    
+7AF3 WPDisk Drive F cmd=    
+1863 WPDisk Drive D cmd=7315@20
+A576 WPDisk Drive C cmd=3430@1020
+41C WPDisk Drive B cmd=3430@1020
+886A WPDisk Drive A cmd=    
+5DAE WPProgram Readme (English) cmd=E.EXE 0
+1DD7 WPProgram Readme (Russian) cmd=E.EXE 0
+CAF9 WPShadow Keyboard Layer/2 cmd=
+1997 WPProgram Keyboard Layer/2 cmd= 1125
+B1A5 WPProgram Compact Disc 2 cmd=CDPM.EXE 0
+C843 WPProgram Compact Disc cmd=CDPM.EXE 0
+C772 WPProgram LBMix startup cmd=-x 3DC0
+4D39 WPSchemePalette (null) cmd=АА
+793 WPProgram DHCP Monitor cmd= 4175
+7E84 WPProgram ScreenSaver cmd= C335
+3719 WPProgram lSwitcher cmd= DFE1
+65C6 WPShadow accdata.zip cmd=
+5DE9 WPProgram USBPRT Auto monitor cmd=USBMON.EXE 0
+E84A WPProgram Acrobat Reader 3.0 cmd= E2A5
+94B6 WPProgram GPI Guide
+and Reference cmd=VIEW.exe 0
+DDC2 WPProgram EFTP cmd= 66A6
+8A2C WPShadow readme.txt cmd=
+ADAF WPShadow nfsu_music.exe cmd=
+3FF1 WPProgram FC/2 Temporary Object cmd= 417A
+AC4 WPProgram OS/2 Programming
+Guide and Reference Addendum cmd=addendum.inf 20DB
+DEE4 WPShadow 26 TI - 24s.mp3 cmd=
+2187 WPShadow 25 Petey Pablo - Need For Speed.mp3 cmd=
+A45D WPShadow 24 X-ecutioners - Body Rock.mp3 cmd=
+B4C4 WPShadow 23 Nate Dogg - Keep It Coming.mp3 cmd=
+78B2 WPShadow 22 Dilated Peoples - Who's Who.mp3 cmd=
+4956 WPShadow 21 Mystikal - Smashing the Gas (Get Faster).mp3 cmd= 
+9448 WPShadow 20 Lil Jon & the Eastside Boyz - Get Low.mp3 cmd=   
+4593 WPShadow 19 Blindside - Swallow.mp3 cmd=
+8A24 WPShadow 18 FC Kahuna - Glitterball.mp3 cmd=
+7E82 WPShadow 17 Overseer - Supermoves.mp3 cmd=
+195D WPShadow 16 lostprophets - Ride.mp3 cmd=
+6DED WPShadow 15 Fluke - Snapshot.mp3 cmd=
+99F2 WPShadow 14 Jerk - Sucked In.mp3 cmd=
+894A WPShadow 13 Fuel - Quarter.mp3 cmd=
+3A23 WPShadow 12 Junkie XL - Action Radius.mp3 cmd=
+D030 WPShadow 11 Andy Hunter - The Wonders of You.mp3 cmd=
+3078 WPShadow 10 Story of the Year - And the Hero Will Drown.mp3 cmd=
+30F1 WPShadow 09 Hotwire - Invisible.mp3 cmd=
+D171 WPShadow 08 Asian Dub Foundation - Fortress Europe.mp3 cmd=    
+8C60 WPShadow 07 Element Eighty - Broken Promises.mp3 cmd=
+46A7 WPShadow 06 Static-X - The Only.mp3 cmd=
+9F4D WPShadow 05 BT - Kimosabe.mp3 cmd=
+70F8 WPShadow 04 Rob Zombie - Two-Lane Blacktop.mp3 cmd=	
+5E7 WPShadow 03 Rancid - Out of Control.mp3 cmd=
+4E56 WPShadow 02 The Crystal Method - Born Too Slow.mp3 cmd=
+422D WPShadow 01 Overseer - Doomsday.mp3 cmd=
+ACD9 WPShadow 00 Unknown - Unknown.mp3 cmd=
+87A1 WPProgram PM Tree cmd= 2C8B
+726E WPProgram Texture Mapped Image Sample
+(TEXGEN) cmd= 2BF8
+3D41 WPProgram Material Properties Sample
+(TEAPOTS) cmd= D222
+24D WPProgram Ambient Lighting Sample
+(TEAAMB) cmd= D0C8
+A57 WPProgram 2-Sided Lighting Sample
+(TEA) cmd= 3B0E
+1E8D WPProgram NURBS Surface Sample
+(SURFACE) cmd= E562
+D3F3 WPProgram Vector Font Sample
+(STROKE) cmd= CE28
+30F WPProgram Rotated Tori Sample
+(STENCIL) cmd= 261B
+4676 WPProgram Textured Surface Sample
+(TEXSURF) cmd= 6EC
+9336 WPProgram Wire Frame Sphere Sample
+(SPHERE) cmd= DD95
+237A WPProgram Smooth Shading Sample
+(SMOOTH) cmd= 1C2
+BBB0 WPProgram Simple Polygon Sample
+(SIMPLE) cmd= 1FBC
+5582 WPProgram Selection Mode Sample
+(SELECT) cmd= A49F
+6371 WPProgram Colored Light
+Source Sample
+(SCNLIGHT) cmd= 435B
+9B60 WPProgram Flat Shading Sample
+(SCNFLAT) cmd= 45F8
+3FA7 WPProgram Piecewise Linear
+Curve Sample
+(TRIM) cmd= 1B94
+59EA WPProgram Blue Ambient
+Light Source Sample
+(SCNBAMB) cmd= AC58
+D682 WPProgram Single Light Source Sample
+(SCENE) cmd= 879
+D5D WPProgram Translated and Rotated
+Hierarchical Models Sample
+(ROBOT) cmd= 58AA
+D64B WPProgram Polygon Stippling Sample
+(POLYS) cmd= 4DB8
+ADF5 WPProgram Rotated Planets Sample
+(PLANETUP) cmd= 59DD
+4CBA WPProgram Composite Modeling
+Transformations Sample
+(PLANET) cmd= 911
+B610 WPProgram Local VS Infinite
+Lighting Sample
+(PLANE) cmd= 6582
+3408 WPProgram Picking Sample
+(PICKSQR) cmd= DF98
+52B3 WPProgram Picking Sample
+(PICKLINE) cmd= 6837
+14AF WPProgram Picking Sample
+(PICKDPTH) cmd= 3EA9
+4C52 WPProgram Non-Uniform Rational
+B-Splines Sample
+(NURBS) cmd= 2F05
+2035 WPProgram Moving Light Sample
+(MVLIGHT) cmd= 3127
+3DD0 WPProgram OpenGL Modeling
+Transformations Sample
+(MODEL) cmd= B9D5
+DA57 WPProgram Mipmap Texture
+Maps Sample
+(MIPMAP) cmd= 6A1
+A078 WPProgram Material Characteristics
+Lighting Sample
+(MATERIAL) cmd= B4FA
+CCE3 WPProgram Color Map Mode
+Lighting Sample
+(MAPLIGHT) cmd= A7DF
+8CFF WPProgram Display List Sample
+(LIST2) cmd= 920E
+7377 WPProgram Display List Sample
+(LIST) cmd= 7D70
+BB6F WPProgram Line Stipples Sample
+(LINES) cmd= 436
+D3DD WPProgram Display List Sample
+(LINELIST) cmd= 43EC
+3A9F WPProgram OpenGL Lighting
+Model Sample
+(LIGHT) cmd= D984
+6964 WPProgram Bitmapped Font Sample
+(FONT) cmd= 5173
+C776 WPProgram Color Index Mode
+Fog Sample
+(FOGINDEX) cmd= 440B
+53E7 WPProgram Fog Sample
+(FOG) cmd= 7D6C
+1485 WPProgram OpenGL Feedback Sample
+(FEEDBACK) cmd= C4BD
+3F68 WPProgram Bitmapped Letter Sample
+(DRAWF) cmd= 49A1
+B7E1 WPProgram Double Buffering Sample
+(DOUBLE) cmd= 451C
+6D9E WPProgram Focused Depth-of-Field Sample
+(DOFNOT) cmd= 2133
+65C WPProgram Depth-of-Field Sample
+(DOF) cmd= 2861
+36AF WPProgram Quadratic Routines Sample
+(DISK) cmd= 3CB5
+1881 WPProgram Depth Sample
+(DEPTHCUE) cmd= 17B1
+A598 WPProgram 1-D NURBS Curve Sample
+(CURVE) cmd= C7F5
+9D02 WPProgram 3-D Cube Sample
+(CUBE) cmd= A2FC
+2224 WPProgram GL Lighting Model Sample
+(CONE) cmd= 4395
+DE1D WPProgram ColorMaterial Mode Sample
+(COLORMAT) cmd= D991
+ACE4 WPProgram Arbitrary Clipping
+Planes Sample
+(CLIP) cmd= 2F34
+E080 WPProgram Checkerboard Image Sample
+(CHESS) cmd= A283
+B738 WPProgram Checkerboard Image Sample
+(CHECKER2) cmd= 9D71
+561E WPProgram Checkerboard Image Sample
+(CHECKER) cmd= 6695
+1EDF WPProgram Filled Bezier
+Surface Sample
+(BEZSURF) cmd= 3EE6
+28B0 WPProgram Wireframe Bezier
+Surface Sample
+(BEZMESH) cmd= 8B11
+543F WPProgram Bezier Curve Sample
+(BEZCURVE) cmd= 17AA
+1479 WPProgram RGB Mode
+Antialiased Points Sample
+(ANTIPT) cmd= 29AF
+61A8 WPProgram Antialiased Polygon Sample
+(ANTIPOLY) cmd= 765E
+90F7 WPProgram Color Index Mode
+Antialiased Points Sample
+(ANTIPIDX) cmd= 5452
+2180 WPProgram Color Index Mode
+Antialiased Lines Sample
+(ANTIINDX) cmd= AA63
+BBF5 WPProgram Antialiased Lines Sample
+(ANTI) cmd= 35A3
+8F4E WPProgram Intermixed Opaque
+and Alpha Blended Polygons
+(ALPHA3D) cmd= 3040
+1C4 WPProgram Alpha Blending Sample
+(ALPHA) cmd= 1965
+1511 WPProgram Field of View Sample
+(AIM) cmd= 9AD5
+A610 WPProgram Accumulating Images
+for Antialiasing
+(ACCUM) cmd= 37C2
+87A3 WPProgram Perspective Accumulation
+of Jittered Images
+(ACCPERSP) cmd= 478D
+D77 WPProgram Aliased Scene
+without Jittering
+(ACCNOT) cmd= 500D
+4D4E WPProgram Antialiased Scene with
+Accumulated Jittered Objects
+(ACCANTI) cmd= 9361
+7A4 WPProgram Unicode Programming Reference
+Web Explorer Browser cmd=EXPLORE.EXE 0
+4372 WPProgram Unicode Programming Reference
+Netscape Browser cmd=NETSCAPE.EXE 0
+432B WPShadow readme.alp cmd=
+4B09 WPProgram KwikInf cmd= 4F70
+4C6E WPProgram Using Your Toolkit cmd=usetlkt.inf 20DB
+D742 WPProgram Welcome to
+VisualAge C++ cmd=TUTOR2.EXE 0
+5A0B WPProgram Installation Utility cmd=CMD.EXE 0
+3124 WPProgram Lotus Word Pro for eCS cmd= E561
+69F WPProgram Lotus Freelance Graphics
+ for OS/2 Warp 4
+ TeamShow Player cmd=-sssui:rss AA62
+6986 WPProgram Lotus SmartSuite  for eCS Uninstall cmd=/a:d AC70
+95E WPProgram Деинсталляция DC User Pack cmd=/c start "Uninstall DC User Pack" /c /f /max /win D:\OS2Util\DCPack\DCsetup.cmd -Uninstall FFFF
+3646 WPProgram Кодировщик Буфера Обмена cmd= 4F6F
+C483 WPProgram Mahjongg cmd= 8162
+7127 WPProgram Java Applet Viewer from URL cmd="-@" C558
+7743 WPProgram Java Applet Viewer from HTML cmd="file:///%**P/%**F" C558
+31F1 WPProgram Editor for Java cmd=/R 72A2
+6A93 WPProgram Run Java Program cmd=cmd.exe 0
+9A67 WPProgram Run Java PM Program cmd=%**N 9BE0
+389B WPProgram Resume Trace cmd=ON /R A368
+476C WPProgram Suspend Trace cmd=ON /S A368
+20E0 WPProgram Trace OFF Clear Buffer cmd=OFF /C A368
+10D3 WPProgram Trace ON Clear Buffer cmd=ON /C A368
+3FE9 WPProgram Trace OFF cmd=OFF A368
+7DFA WPProgram Trace ON cmd=ON A368
+E19E WPProgram Netscape
+User Profile
+Manager cmd=-profile_manager -l en_US CB8C
+B711 WPProgram Netscape
+Messenger cmd=-mail -l en_US CB8C
+93FD WPProgram Netscape
+Composer cmd=-edit -l en_US CB8C
+4B7C WPProgram Netscape
+Navigator cmd=-browser -l en_US CB8C
+D93E WPProgram Netscape
+Communicator cmd=-l en_US CB8C
+872 WPProgram Netscape Communicator
+Installation Utility cmd=CMD.EXE 0
+79A7 WPProgram Java Plugin Control Panel cmd=/c 1890
+3C45 WPProgram Editor for Java cmd=/R 72A2
+17BF WPProgram Run Java Program cmd=cmd.exe 0
+A7FB WPProgram Java Applet Viewer from HTML cmd="file:///%**P/%**F" BD2D
+3047 WPProgram Text Editor cmd= 8919
+B807 WPProgram Registry Editor cmd=REGEDIT2.EXE 0
+32F6 WPProgram Run DOS from Floppy Drive cmd= FFFF
+B8C6 WPProgram DOS Session (Full Screen) cmd=% FFFF
+86F9 WPProgram DOS Session (Window) cmd=% FFFF
+EAE WPProgram Win/eCS Session (Full Screen) cmd= FFFF
+309A WPProgram Win/eCS Session (Window) cmd=PROGMAN.EXE 0
+A269 WPProgram SMART Hard Disk Monitoring Status cmd= 5E52
+8451 WPWinConfig Win/eCS Setup cmd=
+5FEA WPProgram Add Programs cmd= 1A8F
+B806 WPShredder Shredder cmd=
+CB41 WPProgram Install Local Printer cmd=nls\en_us\PRINTER.SGS 4392
+BCBE WPProgram Remove Installation
+for Networking cmd= A269
+4AB6 WPProgram Selective Install
+for Networking cmd= 7DFA
+79D5 WPProgram Stop firewall cmd=stop 25A5
+7614 WPProgram Start firewall cmd=start 25A5
+675E WPProgram Image cmd= 851C
+AAFD WPProgram Locale cmd= 646B
+22B9 WPProgram Drawing cmd=-draw 277E
+4A9D WPProgram From Template cmd=.uno:NewDoc 277E
+6F54 WPProgram HTML Document cmd=-web 277E
+AB55 WPProgram Open Document cmd=.uno:Open 277E
+E98B WPProgram Presentation cmd=-impress 277E
+1C73 WPProgram Spreadsheet cmd=-calc 277E
+B601 WPProgram Text Document cmd=-writer 277E
+B123 WPProgram Java Plug-in cmd= AD74
+4474 WPProgram Java Web Start cmd= C814
+50CF WPProgram DDNS Server
+Administrator cmd=DDNSAPS.CMD 0
+14F1 WPProgram BINL Server
+Administrator cmd=BINLSCPS.CMD 0
+C5C9 WPProgram DHCP Server
+Administrator cmd=DHCPSCPS.CMD 0
+E06F WPProgram Uninstall
+TCP/IP 4.3 cmd= 298F
+C2D3 WPProgram BINL Server
+Configuration cmd=BINLSCPC.CMD 0
+D2DB WPProgram BINL Server cmd=BINLSD.EXE 0
+A19 WPProgram TCP/IP DHCP
+Administration cmd=VIEWHELP.EXE 0
+D6BD WPProgram TCP/IP DHCP
+and Dynamic IP
+Introduction cmd=VIEWHELP.EXE 0
+5C79 WPProgram TCP/IP DHCP
+and Dynamic IP Client
+Administration cmd=VIEWHELP.EXE 0
+6EE8 WPProgram DHCP Server
+Configuration cmd=DHCPSCPC.CMD 0
+3DBC WPProgram DHCP Server
+Management cmd=DADMGUI.CMD 0
+E0D0 WPProgram TCP/IP DNS
+Administration cmd=VIEWHELP.EXE 0
+83CF WPProgram DDNS Server
+Administrator cmd=DDNSAPC.CMD 0
+A116 WPProgram Secure Remote
+IP Client
+Configuration cmd=SRIP.EXE 0
+C4BE WPProgram REXX Sockets API cmd=VIEW.EXE 0
+BB01 WPProgram REXX FTP API cmd=VIEW.EXE 0
+D3EC WPProgram TCP/IP
+Guide cmd=VIEWHELP.EXE 0
+5234 WPProgram TCP/IP
+Command Reference cmd=VIEWHELP.EXE 0
+5204 WPProgram Create TCP/IP
+Administrator Password cmd=ADMIN_PW.CMD 0
+6EDF WPProgram TFTP cmd=TFTP.EXE 0
+3DCD WPProgram FTP cmd=FTP.EXE 0
+68F5 WPProgram Configure
+Remote System cmd=TCPCFG2R.CMD 0
+11A6 WPProgram Allow Remote
+Configuration cmd=TCPCFG2D.CMD 0
+E2D2 WPProgram TCP/IP
+Configuration
+(Local) cmd=TCPCFG2.CMD 0
+B6E7 WPProgram TCP/IP
+Readme cmd=E.EXE 0
+5072 WPProgram TCP/IP for
+DOS/Windows
+Read Me cmd=VIEW.EXE 0
+275D WPProgram Test Modem cmd=MODEMTST.EXE 0
+2652 WPProgram Software Updates cmd=LINKUP.EXE 0
+76D0 AdvCust Registration cmd=en 6D7
+3CA8 AdvCust Customer
+Assistance cmd= 6D7
+BB3 WPProgram xwphelpers
+Login cmd=cmd.exe 0
+A757 WPProgram xwphelpers
+Logout cmd=cmd.exe 0
+4DA1 WPProgram xwphelpers
+Checkout file cmd=cmd.exe 0
+1560 WPProgram xwphelpers
+View file log cmd=cmd.exe 0
+CA8C WPProgram xwphelpers
+Query file status cmd=cmd.exe 0
+97F8 WPProgram xwphelpers
+Add new file cmd=cmd.exe 0
+898F WPProgram xwphelpers
+Update local files cmd=cmd.exe 0
+73EF WPProgram xwphelpers
+Merge to local files cmd=cmd.exe 0
+DD9D WPProgram xwphelpers
+Commit file changes cmd=cmd.exe 0
+5B89 WPProgram xwphelpers
+Tag file cmd=cmd.exe 0
+64E7 WPProgram xwphelpers
+Remove file cmd=cmd.exe 0
+9B2D WPProgram xwphelpers
+View modules cmd=cmd.exe 0
+7188 WPProgram xwphelpers
+Generate Change Report cmd=cmd.exe 0
+1B22 WPProgram xwphelpers
+Fix Snapshot cmd=cmd.exe 0
+279F WPProgram xwpwidgets
+Login cmd=cmd.exe 0
+B078 WPProgram xwpwidgets
+Logout cmd=cmd.exe 0
+7948 WPProgram xwpwidgets
+Checkout file cmd=cmd.exe 0
+D23B WPProgram xwpwidgets
+View file log cmd=cmd.exe 0
+34B WPProgram xwpwidgets
+Query file status cmd=cmd.exe 0
+1F83 WPProgram xwpwidgets
+Add new file cmd=cmd.exe 0
+8265 WPProgram xwpwidgets
+Update local files cmd=cmd.exe 0
+E2E WPProgram xwpwidgets
+Merge to local files cmd=cmd.exe 0
+359E WPProgram xwpwidgets
+Commit file changes cmd=cmd.exe 0
+74BA WPProgram xwpwidgets
+Tag file cmd=cmd.exe 0
+D2DA WPProgram xwpwidgets
+Remove file cmd=cmd.exe 0
+301B WPProgram xwpwidgets
+View modules cmd=cmd.exe 0
+3BA5 WPProgram xwpwidgets
+Generate Change Report cmd=cmd.exe 0
+E54A WPProgram xwpwidgets
+Fix Snapshot cmd=cmd.exe 0
+B453 WPProgram select: xwpwidgets cmd=xwpwidgets xwpwidgets 11B4
+75F WPProgram select: xwphelpers cmd=xwphelpers xwphelpers 11B4
+9A6 WPProgram select: xworkplace cmd=xworkplace xworkplace 11B4
+A9E7 WPProgram select: xp2 cmd=xp2 xp2 11B4
+D641 WPProgram select: wvgui cmd=wvgui wvgui 11B4
+C345 WPProgram select: wpstk cmd=wpstk wpstk 11B4
+49D2 WPProgram select: wpddlib cmd=wpddlib wpddlib 11B4
+2D7C WPProgram select: wlan cmd=wlan wlan 11B4
+DC91 WPProgram select: warpvision cmd=warpvision warpvision 11B4
+E4A7 WPProgram select: warpin cmd=warpin warpin 11B4
+9F10 WPProgram select: warpdriver cmd=warpdriver warpdriver 11B4
+9DE6 WPProgram select: vdd cmd=vdd vdd 11B4
+88C0 WPProgram select: usb cmd=usb usb 11B4
+D01F WPProgram select: uniaud cmd=uniaud uniaud 11B4
+25D3 WPProgram select: tvshow2 cmd=tvshow2 tvshow2 11B4
+A3C7 WPProgram select: tks6 cmd=tks6 tks6 11B4
+636C WPProgram select: system-utils cmd=system-utils system-utils 11B4
+A608 WPProgram select: sysinfo cmd=sysinfo sysinfo 11B4
+5876 WPProgram select: synopsys cmd=synopsys synopsys 11B4
+9238 WPProgram select: stockexchange cmd=stockexchange stockexchange 11B4
+7D68 WPProgram select: skeleton cmd=skeleton skeleton 11B4
+D1AB WPProgram select: sibyl cmd=sibyl sibyl 11B4
+5D2A WPProgram select: sbliveos2 cmd=sbliveos2 sbliveos2 11B4
+1DE9 WPProgram select: samba cmd=samba samba 11B4
+B1CB WPProgram select: rpm cmd=rpm rpm 11B4
+1D06 WPProgram select: pthread cmd=pthread pthread 11B4
+C981 WPProgram select: pmpdf cmd=pmpdf pmpdf 11B4
+5E47 WPProgram select: php cmd=php php 11B4
+E091 WPProgram select: osfree cmd=osfree osfree 11B4
+8A50 WPProgram select: os2tools cmd=os2tools os2tools 11B4
+7E7C WPProgram select: openjfs cmd=openjfs openjfs 11B4
+E6D4 WPProgram select: odin32 cmd=odin32 odin32 11B4
+4FA0 WPProgram select: nvt cmd=nvt nvt 11B4
+4200 WPProgram select: nuto cmd=nuto nuto 11B4
+2E8D WPProgram select: newview cmd=newview newview 11B4
+48CB WPProgram select: netlabs cmd=netlabs netlabs 11B4
+ABF2 WPProgram select: nesuto cmd=nesuto nesuto 11B4
+A914 WPProgram select: nepmd cmd=nepmd nepmd 11B4
+7A4A WPProgram select: multimedia cmd=multimedia multimedia 11B4
+26E0 WPProgram select: multidesk cmd=multidesk multidesk 11B4
+98FB WPProgram select: moma cmd=moma moma 11B4
+9413 WPProgram select: make cmd=make make 11B4
+D93B WPProgram select: lxapi32 cmd=lxapi32 lxapi32 11B4
+5C22 WPProgram select: lookout cmd=lookout lookout 11B4
+1E0D WPProgram select: libc cmd=libc libc 11B4
+4B0B WPProgram select: ktaskmanager cmd=ktaskmanager ktaskmanager 11B4
+5A37 WPProgram select: krypto cmd=krypto krypto 11B4
+35E7 WPProgram select: kdrive cmd=kdrive kdrive 11B4
+258C WPProgram select: kbuild cmd=kbuild kbuild 11B4
+76EB WPProgram select: kbootmanager cmd=kbootmanager kbootmanager 11B4
+31FD WPProgram select: jimihelp cmd=jimihelp jimihelp 11B4
+7FE0 WPProgram select: isdnpm cmd=isdnpm isdnpm 11B4
+5DAA WPProgram select: irman cmd=irman irman 11B4
+A6D1 WPProgram select: install cmd=install install 11B4
+9230 WPProgram select: infdecode cmd=infdecode infdecode 11B4
+16AE WPProgram select: handyftp cmd=handyftp handyftp 11B4
+78F2 WPProgram select: firewire cmd=firewire firewire 11B4
+8DCA WPProgram select: fat32 cmd=fat32 fat32 11B4
+68B4 WPProgram select: ext2fs cmd=ext2fs ext2fs 11B4
+9001 WPProgram select: everblue cmd=everblue everblue 11B4
+730E WPProgram select: elfldr cmd=elfldr elfldr 11B4
+E863 WPProgram select: ecs cmd=ecs ecs 11B4
+C0CC WPProgram select: eclipseos2 cmd=eclipseos2 eclipseos2 11B4
+770E WPProgram select: eclipse cmd=eclipse eclipse 11B4
+8E0C WPProgram select: dwindows cmd=dwindows dwindows 11B4
+A038 WPProgram select: discipulus cmd=discipulus discipulus 11B4
+886F WPProgram select: ddk2 cmd=ddk2 ddk2 11B4
+B893 WPProgram select: cybrain cmd=cybrain cybrain 11B4
+2909 WPProgram select: cvs cmd=cvs cvs 11B4
+D285 WPProgram select: candybarz cmd=candybarz candybarz 11B4
+69FC WPProgram select: bt32 cmd=bt32 bt32 11B4
+D451 WPProgram select: air-boot cmd=air-boot air-boot 11B4
+AE3A WPProgram select: adc cmd=adc adc 11B4
+BE13 WPProgram select: 4os2 cmd=4os2 4os2 11B4
+5C56 WPProgram OS/2 Netlabs
+Open Source Archive Client cmd=VIEW.EXE 0
+4D34 WPProgram Update the
+Open Source Archive list
+from OS/2 Netlabs cmd=cmd.exe 0
+93C1 WPProgram View the
+OS/2 Netlabs
+Open Source Archive list cmd=cmd.exe 0
+1FAC WPProgram Removable Device Monitor V1.1 cmd= 9F71
+896B XWPString Shut down cmd=tring
+DAAF XWPString Find objects cmd=ring
+68DF XWPString Lockup now cmd=ring
+DE88 WPProgram Installation/Deinstallation cmd= 6A22
+5D79 WPProgram xworkplace
+Login cmd=cmd.exe 0
+79F2 WPProgram xworkplace
+Logout cmd=cmd.exe 0
+5E79 WPProgram xworkplace
+Checkout file cmd=cmd.exe 0
+1314 WPProgram xworkplace
+View file log cmd=cmd.exe 0
+34F3 WPProgram xworkplace
+Query file status cmd=cmd.exe 0
+6A2A WPProgram xworkplace
+Add new file cmd=cmd.exe 0
+C75B WPProgram xworkplace
+Update local files cmd=cmd.exe 0
+5E92 WPProgram xworkplace
+Merge to local files cmd=cmd.exe 0
+4CE6 WPProgram xworkplace
+Commit file changes cmd=cmd.exe 0
+B60A WPProgram xworkplace
+Tag file cmd=cmd.exe 0
+C9F2 WPProgram xworkplace
+Remove file cmd=cmd.exe 0
+980D WPProgram xworkplace
+View modules cmd=cmd.exe 0
+42C7 WPProgram xworkplace
+Generate Change Report cmd=cmd.exe 0
+ACC4 WPProgram xworkplace
+Fix Snapshot cmd=cmd.exe 0
+AF1 WPProgram select: gndis cmd=gndis gndis 11B4
+A8E4 WPProgram Install/Uninstall Utility cmd=CMD.EXE 0
+99C0 WPProgram Virtual PC for OS/2 Setup cmd=CMD.EXE 0
+15A6 WPProgram Virtual PC for OS/2 cmd= 1F2B
+5154 WPProgram Uninstall LBMix cmd=-u BD36
+9331 WPProgram LBMix Manual cmd=VIEW.EXE 0
+2E22 WPProgram LBMix Configuration cmd= BD36
+58A4 WPProgram File Commander cmd= CC69
+7ACF WPProgram Decode MP3 cmd="D:\OS2Util\CDCreator" 1 "%*" "%**P" D3F2
+B504 WPProgram 1:1 CD-Copy cmd= CB90
+BD26 WPProgram CD writing tutorial cmd=view.exe 0
+8753 WPProgram CDR-Tools cmd= 979A
+941F WPProgram EJECT cmd=EJECT C5D2
+B6FB WPProgram INTRO cmd=INTRO C5D2
+830C WPProgram STOP cmd=STOP C5D2
+A1B8 WPProgram PAUSE cmd=PAUSE C5D2
+AA79 WPProgram SKIP cmd=SKIP C5D2
+6F72 WPProgram PLAY cmd=PLAY C5D2
+B154 WPProgram BACK cmd=BACK C5D2
+792A WPProgram POWER cmd= C345
+1620 WPShadow My records cmd=
+56C7 WPShadow Leechmp3 information cmd=
+7F47 WPProgram Add a new record cmd= 6475
+DC11 WPProgram View CD track list cmd= CA74
+5BBF WPProgram Rebuild play lists cmd= 75C7
+BEAB WPProgram Save my records to CD cmd=D:\OS2Util\LeechMp3\lm3cddb E9D7
+6CB1 WPProgram Edit Leechmp3 configuration file cmd=e.exe 0
+3362 WPProgram Leech information cmd=view.exe 0
+7508 WPProgram Lame help cmd=e.exe 0
+D8F5 WPProgram Software
+VideoCD Player cmd=D:\MMOS2\MOVIES\_VIDCDI.MPG 66C9
+925C WPProgram Plug-In Pack
+Installation Utility cmd=CMD.EXE 0
+44BE WPProgram Downloaded URL Log cmd=e.exe 0
+72AA WPProgram PM Download Center Getting Log cmd=e.exe 0
+D322 WPProgram PM Download Center Log cmd=e.exe 0
+DB4A WPProgram Connection Verify Log cmd=e.exe 0
+68CA WPProgram PM Download Center Register Form cmd=e.exe 0
+8FFE WPProgram PM Download Center Handbook cmd=view.exe 0
+2204 WPProgram PM Download Center Debug Mode cmd=1 5454
+BBE3 WPProgram Connection Verify Tester cmd= 7667
+657 WPProgram PM Download Center cmd= 5454
+9C90 WPProgram PMMail/2 PGP Information cmd=E.EXE 0
+AB2D WPProgram PMMail/2 ReadMe cmd=E.EXE 0
+8F89 WPProgram Grammar Guide cmd=EXPLORE.EXE 0
+50E0 WPProgram API Reference cmd=EXPLORE.EXE 0
+2606 WPProgram Browser Sample cmd= BB05
+549C WPProgram Bitmap Manipulation Sample cmd= 5238
+9C5 WPProgram HiWorld cmd= D6C1
+55CB WPProgram MIDI Samp cmd= 709
+1443 WPProgram Direct Audio cmd= 378F
+7E4 WPProgram Beehive cmd= 3EE7
+BF73 WPProgram Full Screen DIVE cmd= 420
+6123 WPProgram ATLANTIS cmd= 9F5C
+12B7 WPProgram TEST7 cmd= 4EBB
+AC55 WPProgram Dos Navigator cmd= 630E
+4A7 WPProgram MIDI cmd=MPPM.EXE 0
+CDE3 WPProgram Uninstall Keyboard Layer/2 cmd=/C start "Uninstall Keyboard Layer/2" /C/F "UNINSTL.CMD" FFFF
+6061 WPProgram Select a Keyboard Layout/2 cmd=/c (LAYOUT.EXE [Parameters for LAYOUT (-h for usage)] > layout.out 2>&1 & e.exe layout.out ) FFFF
+D6A3 WPProgram Acrobat Reader 4 cmd= 6FF
+ADE9 WPProgram Uninstall Adobe Acrobat 4 cmd="D:\INNOWIN\ISUNINST.EXE" -f"D:\INNOWIN\Program Files\Common Files\Adobe\Acrobat 4.0\NT\Uninst.isu" -c"D:\INNOWIN\Program Files\Common Files\Adobe\Acrobat 4.0\NT\Uninst.dll" 6FF
+6E82 WPPrinter PDF Writer cmd=
+57D1 WPCat WatchCat cmd=       
+CC0A WPProgram Firefox cmd= C863
+7DEE WPProgram VNC Viewer cmd= 9CF0
+6098 WPProgram eCS MT Help (Deutsch) cmd=VIEW.EXE 0
+939A WPProgram Logical Volume Manager cmd=LVMGUI.CMD 0
+876 WPProgram Captain Nemo cmd= 3DB9
+554F CWCreatorSettings CD-Creator Settings cmd=
+378B WPDisk Drive S cmd=91@1010
+BBD3 WPProgram Uninstall cmd= 1FC5
+B191 WPProgram Hardware
+Report cmd=cmd.exe 0
+4C3C WPProgram Configuration
+Program cmd= A4A7
+2038 WPProgram Monitor Utility cmd=CMD.EXE 0
+77A5 WPShadow snapos2.pdf cmd=
+5422 WPShadow readme.txt cmd=
+63A1 WPShadow System cmd=
+3B9F WPProgram Command Prompt (Window) cmd=% FFFF
+4916 WPProgram Refresh Removable Media cmd=LVM.EXE 0
+286 WPProgram Command Prompt (Full Screen) cmd=% FFFF
+4F38 WPProgram Uninstall Mozilla cmd=/ua \"1.8a5 (en)\" 92C2
+B5B9 WPProgram Mozilla Mail cmd=-mail A982
+E9F3 WPProgram Mozilla Profile Manager cmd=-ProfileManager A982
+F WPProgram Mozilla cmd= A982
+ABB9 WPProgram QU/2 cmd= 32F9
+1C72 WPShadow history.txt cmd=
+33AC WPShadow readme.txt cmd=
+DBB9 WPProgram WarpIN Programmer's Guide and Reference cmd=VIEW.EXE 0
+5BCB WPProgram WarpIN User's Guide cmd=VIEW.EXE 0
+9C6B WPProgram WarpIN cmd= 1A92
+D44 WPColorPalette (null) cmd=
+4AA5 WPProgram SafeFire cmd= C485
+C2A8 WPProgram Open Office cmd= 277E
+85BC WPPrinter HP Color LaserJet PS cmd=
+61A0 WPShadow PMMail/2 cmd=
+3227 WPDisk Drive E cmd=
+9C79 WPFontPalette (null) cmd=
+74A6 WPPower Power cmd=
+C606 WPShadow Multimedia cmd=
+4494 WPProgram C Library Reference cmd=view.exe 0
+70C0 WPProgram Digital Audio cmd=WEPM.EXE 0
+6D20 WPProgram Digital Video cmd=MPPM.EXE 0
+9774 WPProgram Build Folder cmd= 88AB
+CE54 WPProgram Check Desktop cmd= D704
+95E6 WPProgram Reset Screen Sizes cmd= BB34
+3D7A WPProgram Create SYSLEVEL.ECS cmd= 4B83
+70CC WPProgram Update boot blob cmd= 9D76
+44F WPShadow readme_en.txt cmd=
+7CA8 WPProgram Help (English) cmd=VIEW.EXE 0
+C12E WPProgram eComStation Maintenance Tool cmd= 578D
+CFB4 WPShadow firefox.exe cmd=
+D9F1 WPProgram Firefox cmd= C863
+40BC WPProgram Thunderbird cmd= 5F07
+8336 WPShadow Mozilla Mail cmd=
+4D8E WPShadow Mozilla cmd=
+D15A SmartCenter eComCenter cmd=╚
+949 XCenter XCenter2 cmd=utton
+2A22 WPProgram USB cmd= 43F4
+6266 WPDisk Drive I cmd=
+3EA6 WPProgram Lotus 1-2-3 for eCS cmd= D221
+258A4

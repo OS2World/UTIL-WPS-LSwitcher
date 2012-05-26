@@ -1,0 +1,53 @@
+/*
+ *      Copyright (C) 1997-2004 Andrei Los.
+ *      This file is part of the lSwitcher source package.
+ *      lSwitcher is free software; you can redistribute it and/or modify
+ *      it under the terms of the GNU General Public License as published
+ *      by the Free Software Foundation, in version 2 as it comes in the
+ *      "COPYING" file of the lSwitcher main distribution.
+ *      This program is distributed in the hope that it will be useful,
+ *      but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *      GNU General Public License for more details.
+ */
+
+#include "lswres.h"
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE
+{
+  STRID_HINTS "Стрелки:двигать курсор  Пробел:отмена"
+  STRID_SWITCH "Переключиться"
+  STRID_CLOSE "~Закрыть "
+  STRID_HIDE "Скры~ть"
+  STRID_MINIMIZE "Ми~нимизировать"
+  STRID_RESTORE "~Восстановить"
+  STRID_SHOW "П~оказать"
+  STRID_MAXIMIZE "Ма~ксимизировать"
+  STRID_MOVE "~Переместить"
+  STRID_RUN "~Выполнить..."
+  STRID_KILL "DosKillProcess"
+  STRID_DEATH "SIGKILL"
+  STRID_PRIORITY "П~риоритет..."
+  STRID_SHOWSETTINGS "~lSwitcher - настройки..."
+  STRID_QUIT "Вы~ход"
+  STRID_XCENTERSUBMENU "lSwitcher widget"
+  STRID_ADDFILTER "Добавить ~фильтр"
+  STRID_SUSPEND "Приостановить систему"
+}
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE
+{
+  MSG_LOADED   "Программа уже загружена"
+  MSG_ERROR    "ошибка"
+  MSG_CANTSAVE "Невозможно сохранить настройки в файле %s"
+  MSG_CANTOPEN "Невозможно открыть файл с настройками %s"
+  MSG_WRONGVER "Запись содержащая настройки программы в файле %s соответствует другой версии программы и не может быть использована. Удалить эту запись?" 
+  MSG_CANTFINDOPEN "Невозможно найти или открыть " 
+  MSG_CANTEXECUTE "Невозможно выполнить "
+  MSG_CANTKILL "Невозможно уничтожить процесс, принадлежащий WPS"
+  MSG_KILLQUERY "Вы уверены, что хотите уничтожить процесс"
+  MSG_CANCEL "Отказ"
+  MSG_FOLDERS "Папки"
+}
+
+

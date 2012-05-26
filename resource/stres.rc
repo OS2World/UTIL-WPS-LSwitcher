@@ -1,0 +1,53 @@
+/*
+ *      Copyright (C) 1997-2004 Andrei Los.
+ *      This file is part of the lSwitcher source package.
+ *      lSwitcher is free software; you can redistribute it and/or modify
+ *      it under the terms of the GNU General Public License as published
+ *      by the Free Software Foundation, in version 2 as it comes in the
+ *      "COPYING" file of the lSwitcher main distribution.
+ *      This program is distributed in the hope that it will be useful,
+ *      but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *      GNU General Public License for more details.
+ */
+
+#include "lswres.h"
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE
+{
+  STRID_HINTS "Cursores: cambiar selecci¢n  Espacio: cancelar"
+  STRID_SWITCH "Cambiar a"
+  STRID_CLOSE "~Cerrar "
+  STRID_HIDE "~Ocultar"
+  STRID_MINIMIZE "Mi~nimizar"
+  STRID_RESTORE "~Restaurar"
+  STRID_SHOW "~Mostrar"
+  STRID_MAXIMIZE "Ma~ximizar"
+  STRID_MOVE "~Mover"
+  STRID_RUN "~Ejecutar..."
+  STRID_KILL "DosKillProcess"
+  STRID_DEATH "SIGKILL"
+  STRID_PRIORITY "~Prioridad..."
+  STRID_SHOWSETTINGS "Opciones de ~lSwitcher..."
+  STRID_QUIT "~Salir"
+  STRID_XCENTERSUBMENU "lSwitcher widget"
+  STRID_ADDFILTER "A¤adir ~filtro"
+  STRID_SUSPEND "Suspender el sistema"
+}
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE
+{
+  MSG_LOADED   "Ya se ha cargado"
+  MSG_ERROR    "error"
+  MSG_CANTSAVE "No se pueden guardar las oopciones en el archivo %s"
+  MSG_CANTOPEN "No se puede abrir el archivo de opciones %s"
+  MSG_WRONGVER "Las opciones del archivo %s corresponden a otra versi¢n de este programa. ¨Quiere borrarlas?" 
+  MSG_CANTFINDOPEN "No se puedo encontrar o abrir " 
+  MSG_CANTEXECUTE "No se pudo ejecutar "
+  MSG_CANTKILL "No es posible matar un proceso del WPS"
+  MSG_KILLQUERY "¨Seguro que desea matar el proceso"
+  MSG_CANCEL "Cancelar"
+  MSG_FOLDERS "Carpetas"
+}
+
+

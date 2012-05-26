@@ -1,0 +1,20 @@
+# for use with IBM NMAKE
+
+ASM = WASM.EXE
+LINK = WLINK.EXE
+
+ASMFLAGS = -ml -2 -w4
+
+LFLAGS= SYS dos op el
+
+SRCDIR = .
+
+all: lSwitchd.exe
+
+lSwitchd.exe: switchde.obj 
+    wlink $(LFLAGS) name lSwitchd.exe file switchde.obj 
+
+
+switchde.obj: \
+    $(SRCDIR)\switchde.asm
+    wasm $(ASMFLAGS) %s

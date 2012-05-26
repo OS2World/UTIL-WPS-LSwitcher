@@ -1,0 +1,56 @@
+PARM 1==0xC5 
+  get thread info; each successive call returns info for one thread. 
+  When the function has been called for every thread in the system, 
+  the next call returns nonzero rc
+PARM 2 address of a buffer  
+PARM 3 buffer length
+PARM 4 0
+
+Return buffer structure
+0-3   System thread number+1 LSB-MSB
+4-7   Always 0x9F ?
+8-11  TCB addr
+12-15 PTDA addr, parm of C1 type of call
+16-17 hob of PTDA
+18-19 PID
+20-21 PPID
+22-25 ?
+26-   EXE name without extension
+
+PARM 1==0xC1, 0xC3
+  get PTDA
+PARM 2 address of a buffer  
+PARM 3 buffer length
+PARM 4 PTDA addr, can be obtained from C5 call
+
+PARM 1==0xC6
+  get TCB 
+PARM 2 address of a buffer  
+PARM 3 buffer length
+PARM 4 TCB addr, can be obtained from C5 call
+
+PARM 1==0xD0
+  get hob object record
+PARM 2 address of a buffer  
+PARM 3 buffer length
+PARM 4 HOB
+
+PARM 1==0xCD
+  get arena record
+PARM 2 address of a buffer  
+PARM 3 buffer length
+PARM 4 HAR
+
+PARM 1==0xDC
+  get memory block info ?
+PARM 2 address of a dynamically allocated buffer  
+PARM 3 memory block address
+PARM 4 PTDA addr
+  
+PARM 1==0xD9
+  get memory block contents; needs to be called after function 0xDC?
+PARM 2 pointer to a variable containing address of a dynamically 
+       allocated buffer  
+PARM 3 RESERVED
+PARM 4 RESERVED
+  
